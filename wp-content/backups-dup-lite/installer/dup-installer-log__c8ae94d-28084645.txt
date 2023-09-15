@@ -1,0 +1,2506 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 09:22:55
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |WINNT
+PHP VERSION_________: 7.4.33                                |8.1.12
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.1.12 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.1.12
+DOC ROOT____________: "C:/xampp/htdocs/aciana"
+REQUEST URL_________: "http://localhost/aciana"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "C:/xampp/htdocs/aciana"
+URL_NEW_____________: "http://localhost/aciana"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "C:/xampp/htdocs/aciana/20230328_aciana_[HASH]_20230328084645_archive.daf"
+ARCHIVE SIZE________: 89.16MB
+CREATED_____________: 2023-03-28 08:46:45
+WP VERSION__________: 5.9.5
+DUP VERSION_________: 1.5.2.1
+LICENSE_____________: Free version
+DB VERSION__________: 5.6.51
+DB FILE SIZE________: 8.66MB
+DB TABLES___________: 55
+DB ROWS_____________: 10424
+URL HOME____________: https://aciana.com
+URL CORE____________: https://aciana.com
+URL CONTENT_________: https://aciana.com/wp-content
+URL UPLOAD__________: http://aciana.com/wp-content/uploads
+URL PLUGINS_________: https://aciana.com/wp-content/plugins
+URL MU PLUGINS______: http://aciana.com/wp-content/mu-plugins
+URL THEMES__________: https://aciana.com/wp-content/themes
+PATH HOME___________: /home/ilfc80cr5lij/public_html
+PATH ABS____________: /home/ilfc80cr5lij/public_html
+PATH WPCONFIG_______: /home/ilfc80cr5lij/public_html
+PATH WPCONTENT______: /home/ilfc80cr5lij/public_html/wp-content
+PATH UPLOADS________: /home/ilfc80cr5lij/public_html/wp-content/uploads
+PATH PLUGINS________: /home/ilfc80cr5lij/public_html/wp-content/plugins
+PATH MUPLUGINS______: /home/ilfc80cr5lij/public_html/wp-content/mu-plugins
+PATH THEMES_________: /home/ilfc80cr5lij/public_html/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "aciana.com/"
+
+PLUGINS
+PLUGIN [SLUG:advanced-custom-fields-pro/acf.php                ][ON:true ]  Advanced Custom Fields PRO
+PLUGIN [SLUG:akismet/akismet.php                               ][ON:true ]  Akismet Anti-Spam
+PLUGIN [SLUG:all-in-one-wp-migration/all-in-one-wp-migration.php][ON:true ]  All-in-One WP Migration
+PLUGIN [SLUG:bb-booster/bb-booster.php                         ][ON:false]  Beaver Builder Booster
+PLUGIN [SLUG:beaver-builder-lite-version/fl-builder.php        ][ON:false]  Beaver Builder Plugin (Lite Version)
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ]  Contact Form 7
+PLUGIN [SLUG:contact-widgets/contact-widgets.php               ][ON:false]  Contact Widgets
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:godaddy-email-marketing-sign-up-forms/godaddy-email-marketing.php][ON:false]  GoDaddy Email Marketing
+PLUGIN [SLUG:gravityforms/gravityforms.php                     ][ON:true ]  Gravity Forms
+PLUGIN [SLUG:hello-dolly/hello.php                             ][ON:false]  Hello Dolly
+PLUGIN [SLUG:limit-login-attempts-reloaded/limit-login-attempts-reloaded.php][ON:false]  Limit Login Attempts Reloaded
+PLUGIN [SLUG:ninja-forms/ninja-forms.php                       ][ON:false]  Ninja Forms
+PLUGIN [SLUG:really-simple-captcha/really-simple-captcha.php   ][ON:false]  Really Simple CAPTCHA
+PLUGIN [SLUG:wpcf7-recaptcha/wpcf7-recaptcha.php               ][ON:true ]  ReCaptcha v2 for Contact Form 7
+PLUGIN [SLUG:w3-total-cache/w3-total-cache.php                 ][ON:false]  W3 Total Cache
+PLUGIN [SLUG:wps-hide-login/wps-hide-login.php                 ][ON:true ]  WPS Hide Login
+PLUGIN [SLUG:duplicate-post/duplicate-post.php                 ][ON:true ]  Yoast Duplicate Post
+PLUGIN [SLUG:wordpress-seo/wp-seo.php                          ][ON:true ]  Yoast SEO
+PLUGIN [SLUG:installatron_hide_status_test.php                 ][ON:false]  installatron_hide_status_test.php
+
+********************************************************************************
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.59264]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.36471]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00052]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00015]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00016]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00103]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00030]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+LOG-TIME[DELTA:   0.15473]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00066]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: soft warning
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.01563]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.08374]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00109]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00016]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.02630]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00272]  MESSAGE:TEST "Database Version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00072]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00117]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00040]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00126]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00282]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.12801]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00147]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00262]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00022]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00261]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00266]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00024]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 09:24:48
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "aciana"
+HOME URL NEW________: "http://localhost/aciana"
+SITE URL NEW________: "http://localhost/aciana/"
+CONTENT URL NEW_____: "http://localhost/aciana/wp-content"
+UPLOAD URL NEW______: "http://localhost/aciana/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost/aciana/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost/aciana/wp-content/mu-plugins"
+HOME PATH NEW_______: "C:/xampp/htdocs/aciana"
+SITE PATH NEW_______: "C:/xampp/htdocs/aciana/"
+CONTENT PATH NEW____: "C:/xampp/htdocs/aciana/wp-content"
+UPLOAD PATH NEW_____: "C:/xampp/htdocs/aciana/wp-content/uploads"
+PLUGINS PATH NEW____: "C:/xampp/htdocs/aciana/wp-content/plugins"
+MUPLUGINS PATH NEW__: "C:/xampp/htdocs/aciana/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "duparchive"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "C:/xampp/htdocs/aciana/dup-installer"
+	FILE: "C:/xampp/htdocs/aciana/20230328_aciana_[HASH]_20230328084645_installer-backup.php"
+	FILE: "C:/xampp/htdocs/aciana/20230328_aciana_[HASH]_20230328084645_archive.daf"
+	FILE: "C:/xampp/htdocs/aciana/installer.php"
+	FILE: "C:/xampp/htdocs/aciana/dup-installer-bootlog__c8ae94d-28084645.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20230328_aciana_[HASH]_20230328084645_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: DUP ARCHIVE >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+SQL FILE NOT FOUND SO ADD TO EXTRACTION
+ARCHIVE OFFSET 0
+DAWN START EXPAND
+DUP EXPAND OFFSET 30
+CHUNK COMPLETE - RUNTIME: 8.5595 sec. - Files processed: 814 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6202190
+DAWN CONTINUE EXPAND
+#### seeking archive offset 6202190
+DUP EXPAND OFFSET 6202190
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.2504 sec. - Files processed: 1,069 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11046983
+DAWN CONTINUE EXPAND
+#### seeking archive offset 11046983
+DUP EXPAND OFFSET 11046983
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.3169 sec. - Files processed: 1,469 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 13655794
+DAWN CONTINUE EXPAND
+#### seeking archive offset 13655794
+DUP EXPAND OFFSET 13655794
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.6275 sec. - Files processed: 1,955 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 14146191
+DAWN CONTINUE EXPAND
+#### seeking archive offset 14146191
+DUP EXPAND OFFSET 14146191
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.5669 sec. - Files processed: 2,638 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 20424074
+DAWN CONTINUE EXPAND
+#### seeking archive offset 20424074
+DUP EXPAND OFFSET 20424074
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8521 sec. - Files processed: 3,172 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 22430701
+DAWN CONTINUE EXPAND
+#### seeking archive offset 22430701
+DUP EXPAND OFFSET 22430701
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.3084 sec. - Files processed: 3,717 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 23935039
+DAWN CONTINUE EXPAND
+#### seeking archive offset 23935039
+DUP EXPAND OFFSET 23935039
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.5837 sec. - Files processed: 4,133 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 25125401
+DAWN CONTINUE EXPAND
+#### seeking archive offset 25125401
+DUP EXPAND OFFSET 25125401
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.4113 sec. - Files processed: 4,611 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 26152214
+DAWN CONTINUE EXPAND
+#### seeking archive offset 26152214
+DUP EXPAND OFFSET 26152214
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.6666 sec. - Files processed: 5,068 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 27768865
+DAWN CONTINUE EXPAND
+#### seeking archive offset 27768865
+DUP EXPAND OFFSET 27768865
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.6641 sec. - Files processed: 5,399 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 28097413
+DAWN CONTINUE EXPAND
+#### seeking archive offset 28097413
+DUP EXPAND OFFSET 28097413
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.5765 sec. - Files processed: 5,816 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 28672290
+DAWN CONTINUE EXPAND
+#### seeking archive offset 28672290
+DUP EXPAND OFFSET 28672290
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.6007 sec. - Files processed: 6,387 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 36288498
+DAWN CONTINUE EXPAND
+#### seeking archive offset 36288498
+DUP EXPAND OFFSET 36288498
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.6831 sec. - Files processed: 6,695 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 37138340
+DAWN CONTINUE EXPAND
+#### seeking archive offset 37138340
+DUP EXPAND OFFSET 37138340
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.4238 sec. - Files processed: 7,160 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 38804847
+DAWN CONTINUE EXPAND
+#### seeking archive offset 38804847
+DUP EXPAND OFFSET 38804847
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.5713 sec. - Files processed: 7,787 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 41284854
+DAWN CONTINUE EXPAND
+#### seeking archive offset 41284854
+DUP EXPAND OFFSET 41284854
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.5459 sec. - Files processed: 8,309 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 45916856
+DAWN CONTINUE EXPAND
+#### seeking archive offset 45916856
+DUP EXPAND OFFSET 45916856
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.6309 sec. - Files processed: 8,646 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 47908093
+DAWN CONTINUE EXPAND
+#### seeking archive offset 47908093
+DUP EXPAND OFFSET 47908093
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.5763 sec. - Files processed: 9,183 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 49584143
+DAWN CONTINUE EXPAND
+#### seeking archive offset 49584143
+DUP EXPAND OFFSET 49584143
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.5033 sec. - Files processed: 9,693 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 53081410
+DAWN CONTINUE EXPAND
+#### seeking archive offset 53081410
+DUP EXPAND OFFSET 53081410
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.5607 sec. - Files processed: 10,072 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 55173602
+DAWN CONTINUE EXPAND
+#### seeking archive offset 55173602
+DUP EXPAND OFFSET 55173602
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.1768 sec. - Files processed: 10,545 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 55924294
+DAWN CONTINUE EXPAND
+#### seeking archive offset 55924294
+DUP EXPAND OFFSET 55924294
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.4039 sec. - Files processed: 11,099 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 59610617
+DAWN CONTINUE EXPAND
+#### seeking archive offset 59610617
+DUP EXPAND OFFSET 59610617
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.6119 sec. - Files processed: 11,680 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 69229533
+DAWN CONTINUE EXPAND
+#### seeking archive offset 69229533
+DUP EXPAND OFFSET 69229533
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/aciana"
+--------------------------------------
+DUP EXPAND DONE
+
+
+EXTRACTION: DUP ARCHIVE >>> DONE
+
+EXTRACTION COMPLETE @ 09:26:55 - RUNTIME: 127.1872 sec. - Files processed: 14,606 of 14,606
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 09:26:56
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_commentmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:      21] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_duplicator_packages"__________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_packages]
+TABLE "wp_gf_draft_submissions"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_gf_draft_submissions]
+TABLE "wp_gf_entry"_____________________________________[ROWS:     870] [EXTRACT|REPLACE] [INST NAME: wp_gf_entry]
+TABLE "wp_gf_entry_meta"________________________________[ROWS:    3099] [EXTRACT|REPLACE] [INST NAME: wp_gf_entry_meta]
+TABLE "wp_gf_entry_notes"_______________________________[ROWS:     348] [EXTRACT|REPLACE] [INST NAME: wp_gf_entry_notes]
+TABLE "wp_gf_form"______________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_gf_form]
+TABLE "wp_gf_form_meta"_________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_gf_form_meta]
+TABLE "wp_gf_form_revisions"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_gf_form_revisions]
+TABLE "wp_gf_form_view"_________________________________[ROWS:    2740] [EXTRACT|REPLACE] [INST NAME: wp_gf_form_view]
+TABLE "wp_gf_rest_api_keys"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_gf_rest_api_keys]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_nf3_actions"__________________________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: wp_nf3_actions]
+TABLE "wp_nf3_action_meta"______________________________[ROWS:     126] [EXTRACT|REPLACE] [INST NAME: wp_nf3_action_meta]
+TABLE "wp_nf3_chunks"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_nf3_chunks]
+TABLE "wp_nf3_fields"___________________________________[ROWS:      10] [EXTRACT|REPLACE] [INST NAME: wp_nf3_fields]
+TABLE "wp_nf3_field_meta"_______________________________[ROWS:     133] [EXTRACT|REPLACE] [INST NAME: wp_nf3_field_meta]
+TABLE "wp_nf3_forms"____________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_nf3_forms]
+TABLE "wp_nf3_form_meta"________________________________[ROWS:      36] [EXTRACT|REPLACE] [INST NAME: wp_nf3_form_meta]
+TABLE "wp_nf3_objects"__________________________________[ROWS:     210] [EXTRACT|REPLACE] [INST NAME: wp_nf3_objects]
+TABLE "wp_nf3_object_meta"______________________________[ROWS:     420] [EXTRACT|REPLACE] [INST NAME: wp_nf3_object_meta]
+TABLE "wp_nf3_relationships"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_nf3_relationships]
+TABLE "wp_nf3_upgrades"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_nf3_upgrades]
+TABLE "wp_options"______________________________________[ROWS:     293] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:    3971] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:     309] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_termmeta"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_term_relationships"___________________________[ROWS:      18] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_usermeta"_____________________________________[ROWS:      84] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_users]
+TABLE "wp_wc_download_log"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_download_log]
+TABLE "wp_wc_webhooks"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_webhooks]
+TABLE "wp_woocommerce_api_keys"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_api_keys]
+TABLE "wp_woocommerce_attribute_taxonomies"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_attribute_taxonomies]
+TABLE "wp_woocommerce_downloadable_product_permissions"_[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_downloadable_product_permissions]
+TABLE "wp_woocommerce_log"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_log]
+TABLE "wp_woocommerce_order_itemmeta"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_order_itemmeta]
+TABLE "wp_woocommerce_order_items"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_order_items]
+TABLE "wp_woocommerce_payment_tokenmeta"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_payment_tokenmeta]
+TABLE "wp_woocommerce_payment_tokens"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_payment_tokens]
+TABLE "wp_woocommerce_sessions"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_sessions]
+TABLE "wp_woocommerce_shipping_zones"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_shipping_zones]
+TABLE "wp_woocommerce_shipping_zone_locations"__________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_shipping_zone_locations]
+TABLE "wp_woocommerce_shipping_zone_methods"____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_shipping_zone_methods]
+TABLE "wp_woocommerce_tax_rates"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_tax_rates]
+TABLE "wp_woocommerce_tax_rate_locations"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_tax_rate_locations]
+TABLE "wp_yoast_indexable"______________________________[ROWS:      63] [EXTRACT|REPLACE] [INST NAME: wp_yoast_indexable]
+TABLE "wp_yoast_indexable_hierarchy"____________________[ROWS:      32] [EXTRACT|REPLACE] [INST NAME: wp_yoast_indexable_hierarchy]
+TABLE "wp_yoast_migrations"_____________________________[ROWS:      23] [EXTRACT|REPLACE] [INST NAME: wp_yoast_migrations]
+TABLE "wp_yoast_primary_term"___________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_yoast_primary_term]
+TABLE "wp_yoast_seo_links"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_yoast_seo_links]
+TABLE "wp_yoast_seo_meta"_______________________________[ROWS:      71] [EXTRACT|REPLACE] [INST NAME: wp_yoast_seo_meta]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.27 -- Build Server: 5.6.51
+FILE SIZE:	dup-database__[HASH].sql (3.84MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	481
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:    21]
+TABLE "wp_duplicator_packages"__________________________[ROWS:     1]
+TABLE "wp_gf_draft_submissions"_________________________[ROWS:     0]
+TABLE "wp_gf_entry"_____________________________________[ROWS:   870]
+TABLE "wp_gf_entry_meta"________________________________[ROWS:  3099]
+TABLE "wp_gf_entry_notes"_______________________________[ROWS:   348]
+TABLE "wp_gf_form"______________________________________[ROWS:     2]
+TABLE "wp_gf_form_meta"_________________________________[ROWS:     2]
+TABLE "wp_gf_form_revisions"____________________________[ROWS:     0]
+TABLE "wp_gf_form_view"_________________________________[ROWS:  2740]
+TABLE "wp_gf_rest_api_keys"_____________________________[ROWS:     0]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_nf3_action_meta"______________________________[ROWS:   126]
+TABLE "wp_nf3_actions"__________________________________[ROWS:     6]
+TABLE "wp_nf3_chunks"___________________________________[ROWS:     0]
+TABLE "wp_nf3_field_meta"_______________________________[ROWS:   133]
+TABLE "wp_nf3_fields"___________________________________[ROWS:    10]
+TABLE "wp_nf3_form_meta"________________________________[ROWS:    36]
+TABLE "wp_nf3_forms"____________________________________[ROWS:     2]
+TABLE "wp_nf3_object_meta"______________________________[ROWS:   420]
+TABLE "wp_nf3_objects"__________________________________[ROWS:   210]
+TABLE "wp_nf3_relationships"____________________________[ROWS:     0]
+TABLE "wp_nf3_upgrades"_________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   293]
+TABLE "wp_postmeta"_____________________________________[ROWS:  3971]
+TABLE "wp_posts"________________________________________[ROWS:   309]
+TABLE "wp_term_relationships"___________________________[ROWS:    18]
+TABLE "wp_term_taxonomy"________________________________[ROWS:     3]
+TABLE "wp_termmeta"_____________________________________[ROWS:     0]
+TABLE "wp_terms"________________________________________[ROWS:     3]
+TABLE "wp_usermeta"_____________________________________[ROWS:    84]
+TABLE "wp_users"________________________________________[ROWS:     3]
+TABLE "wp_wc_download_log"______________________________[ROWS:     0]
+TABLE "wp_wc_webhooks"__________________________________[ROWS:     0]
+TABLE "wp_woocommerce_api_keys"_________________________[ROWS:     0]
+TABLE "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0]
+TABLE "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0]
+TABLE "wp_woocommerce_log"______________________________[ROWS:     0]
+TABLE "wp_woocommerce_order_itemmeta"___________________[ROWS:     0]
+TABLE "wp_woocommerce_order_items"______________________[ROWS:     0]
+TABLE "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0]
+TABLE "wp_woocommerce_payment_tokens"___________________[ROWS:     0]
+TABLE "wp_woocommerce_sessions"_________________________[ROWS:     0]
+TABLE "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0]
+TABLE "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0]
+TABLE "wp_woocommerce_shipping_zones"___________________[ROWS:     0]
+TABLE "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0]
+TABLE "wp_woocommerce_tax_rates"________________________[ROWS:     0]
+TABLE "wp_yoast_indexable"______________________________[ROWS:    63]
+TABLE "wp_yoast_indexable_hierarchy"____________________[ROWS:    32]
+TABLE "wp_yoast_migrations"_____________________________[ROWS:    23]
+TABLE "wp_yoast_primary_term"___________________________[ROWS:     1]
+TABLE "wp_yoast_seo_links"______________________________[ROWS:     0]
+TABLE "wp_yoast_seo_meta"_______________________________[ROWS:    71]
+
+INSERT DATA RUNTIME: 5.7937 sec.
+STEP-2 COMPLETE @ 09:27:02 - RUNTIME: 5.7942 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home/ilfc80cr5lij/public_html REPLACE: C:/xampp/htdocs/aciana/ [SCOPE: ALL]
+SEARCH ITEM[T:path |P:12] SEARCH: /home/ilfc80cr5lij/public_html REPLACE: C:/xampp/htdocs/aciana [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:10] SEARCH: http://aciana.com/wp-content/uploads REPLACE: http://localhost/aciana/wp-content/uploads [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://aciana.com REPLACE: http://localhost/aciana/ [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://aciana.com REPLACE: http://localhost/aciana [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:10] SEARCH: http://aciana.com/wp-content/mu-plugins REPLACE: http://localhost/aciana/wp-content/mu-plugins [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 09:27:02
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 512M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = C:/xampp/htdocs/aciana/wp-content/uploads], [inWpConfig = 1]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [wp_options]
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_ui_view_state","duplicator_package_active","duplicator_settings","duplicator_is_pro_enable_notice_dismissed")
+DATABASE OPTIONS DELETED [ROWS:    62]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:    21][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_comments][0]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_draft_submissions"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_entry"_____________________________________[ROWS:   870][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_gf_entry][0]
+
+EVALUATE TABLE: "wp_gf_entry_meta"________________________________[ROWS:  3099][PG:   4][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_gf_entry_meta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_gf_entry_meta][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_gf_entry_meta][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_gf_entry_meta][3]
+
+EVALUATE TABLE: "wp_gf_entry_notes"_______________________________[ROWS:   348][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_gf_entry_notes][0]
+
+EVALUATE TABLE: "wp_gf_form"______________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_gf_form][0]
+
+EVALUATE TABLE: "wp_gf_form_meta"_________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_gf_form_meta][0]
+
+EVALUATE TABLE: "wp_gf_form_revisions"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_form_view"_________________________________[ROWS:  2740][PG:   3][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_gf_form_view][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_gf_form_view][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_gf_form_view][2]
+
+EVALUATE TABLE: "wp_gf_rest_api_keys"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_actions"__________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_nf3_actions][0]
+
+EVALUATE TABLE: "wp_nf3_action_meta"______________________________[ROWS:   126][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_nf3_action_meta][0]
+
+EVALUATE TABLE: "wp_nf3_chunks"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_fields"___________________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_nf3_fields][0]
+
+EVALUATE TABLE: "wp_nf3_field_meta"_______________________________[ROWS:   133][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_nf3_field_meta][0]
+
+EVALUATE TABLE: "wp_nf3_forms"____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_nf3_forms][0]
+
+EVALUATE TABLE: "wp_nf3_form_meta"________________________________[ROWS:    36][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_nf3_form_meta][0]
+
+EVALUATE TABLE: "wp_nf3_objects"__________________________________[ROWS:   210][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_nf3_objects][0]
+
+EVALUATE TABLE: "wp_nf3_object_meta"______________________________[ROWS:   420][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_nf3_object_meta][0]
+
+EVALUATE TABLE: "wp_nf3_relationships"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_upgrades"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   231][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  3971][PG:   4][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][3]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   309][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+	
+STEP-3 CHUNK STOP @ 09:27:08 - RUNTIME: 5.6541 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    18][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    84][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_indexable"______________________________[ROWS:    63][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_indexable][0]
+
+EVALUATE TABLE: "wp_yoast_indexable_hierarchy"____________________[ROWS:    32][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_migrations"_____________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_migrations][0]
+
+EVALUATE TABLE: "wp_yoast_primary_term"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://aciana.com/wp-content/uploads" ============> "http://localhost/aciana/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://aciana.com/wp-content/mu-plugins" =========> "http://localhost/aciana/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/ilfc80cr5lij/public_html" ==================> "C:/xampp/htdocs/aciana"
+	SEARCH[urlnd]  4:"https://aciana.com" ==============================> "http://localhost/aciana"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_primary_term][0]
+
+EVALUATE TABLE: "wp_yoast_seo_links"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_seo_meta"_______________________________[ROWS:    71][PG:   1][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:55 	|	 Rows:12716 	|	 Cells:84583 
+UPDATED:	Tables:9 	|	 Rows:1328 	|	 Cells:1491 
+ERRORS:		0 
+RUNTIME:	6.378700 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:C:/xampp/htdocs/aciana/wp-config.php
+New htaccess file created:C:/xampp/htdocs/aciana/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_SITEURL "http://localhost/aciana/"
+	UPDATE DB_NAME ""aciana""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	WP CONFIG UPDATE WP_TEMP_DIR "C:/xampp/htdocs/aciana/wp-content/uploads"
+	WP CONFIG UPDATE AUTOMATIC_UPDATER_DISABLED "true"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+Activated plugins listed here will be deactivated: Array
+(
+)
+
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 09:27:09 - RUNTIME: 1.3228 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[WARNING] One or multiple config files were found in main WordPress folders
+	SECTIONS: general
+	LONG MSG: Config files in WordPress main folders may cause problems with accessing the site after the installation. The following config files were found: - C:/xampp/htdocs/aciana/wp-includes/.htaccessPlease consider removing those files in case you have problems with your site after the installation.
+
+-----------------------
+[NOTICE] Plugin WPS Hide Login disabled by default
+	SECTIONS: plugins
+	LONG MSG: This plugin is deactivated by default automatically due to issues that one may encounter when migrating. You must reactivate from the WordPress admin panel after completing the installation or from the plugins tab. Your site's frontend will render properly after reactivating the plugin.
+
+====================================
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[WARNING] One or multiple config files were found in main WordPress folders
+	SECTIONS: general
+	LONG MSG: Config files in WordPress main folders may cause problems with accessing the site after the installation. The following config files were found: - C:/xampp/htdocs/aciana/wp-includes/.htaccessPlease consider removing those files in case you have problems with your site after the installation.
+
+-----------------------
+[NOTICE] WPS Hide Login has been deactivated
+	SECTIONS: plugins
+
+-----------------------
+[NOTICE] Activate WPS Hide Login after you login.
+	SECTIONS: plugins
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: C:/xampp/htdocs/aciana/index.php
+E_DEPRECATED Optional parameter $post_id declared before required parameter $field is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-value.php[270]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[127]
+	CLASS___: ACF->initialize               FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[690]
+	FUNCTION: acf                           FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[701]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Optional parameter $value declared before required parameter $field is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-value.php[398]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[127]
+	CLASS___: ACF->initialize               FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[690]
+	FUNCTION: acf                           FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[701]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Optional parameter $post_id declared before required parameter $field is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-value.php[398]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[127]
+	CLASS___: ACF->initialize               FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[690]
+	FUNCTION: acf                           FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[701]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Optional parameter $post_id declared before required parameter $field is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-value.php[483]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[127]
+	CLASS___: ACF->initialize               FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[690]
+	FUNCTION: acf                           FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[701]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Optional parameter $key declared before required parameter $data is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\cache.php[399]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[145]
+	CLASS___: ACF->initialize               FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[690]
+	FUNCTION: acf                           FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[701]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Optional parameter $key declared before required parameter $value is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\ajax\class-acf-ajax.php[99]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[159]
+	CLASS___: ACF->initialize               FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[690]
+	FUNCTION: acf                           FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[701]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Ai1wm_Recursive_Directory_Iterator::hasChildren($allow_links = true) should either be compatible with RecursiveDirectoryIterator::hasChildren(bool $allowLinks = false): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\iterator\class-ai1wm-recursive-directory-iterator.php[61]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\loader.php[114]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\all-in-one-wp-migration.php[73]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Ai1wm_Recursive_Directory_Iterator::rewind() should either be compatible with FilesystemIterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\iterator\class-ai1wm-recursive-directory-iterator.php[39]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\loader.php[114]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\all-in-one-wp-migration.php[73]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Ai1wm_Recursive_Directory_Iterator::next() should either be compatible with DirectoryIterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\iterator\class-ai1wm-recursive-directory-iterator.php[46]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\loader.php[114]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\all-in-one-wp-migration.php[73]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Ai1wm_Recursive_Extension_Filter::getChildren() should either be compatible with RecursiveFilterIterator::getChildren(): ?RecursiveFilterIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\filter\class-ai1wm-recursive-extension-filter.php[51]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\loader.php[130]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\all-in-one-wp-migration.php[73]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Ai1wm_Recursive_Extension_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\filter\class-ai1wm-recursive-extension-filter.php[41]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\loader.php[130]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\all-in-one-wp-migration.php[73]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Ai1wm_Recursive_Exclude_Filter::getChildren() should either be compatible with RecursiveFilterIterator::getChildren(): ?RecursiveFilterIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\filter\class-ai1wm-recursive-exclude-filter.php[67]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\loader.php[138]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\all-in-one-wp-migration.php[73]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\filter\class-ai1wm-recursive-exclude-filter.php[43]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\loader.php[138]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\all-in-one-wp-migration.php[73]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of WPCF7_FormTag::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\includes\form-tag.php[396]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\load.php[8]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\wp-contact-form-7.php[70]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of WPCF7_FormTag::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\includes\form-tag.php[388]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\load.php[8]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\wp-contact-form-7.php[70]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of WPCF7_FormTag::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\includes\form-tag.php[382]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\load.php[8]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\wp-contact-form-7.php[70]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of WPCF7_FormTag::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\includes\form-tag.php[400]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\load.php[8]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\wp-contact-form-7.php[70]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of WPCF7_Validation::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\includes\validation.php[78]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\load.php[18]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\wp-contact-form-7.php[70]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of WPCF7_Validation::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\includes\validation.php[72]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\load.php[18]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\wp-contact-form-7.php[70]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of WPCF7_Validation::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\includes\validation.php[59]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\load.php[18]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\wp-contact-form-7.php[70]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of WPCF7_Validation::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\includes\validation.php[82]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\load.php[18]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\wp-contact-form-7.php[70]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Gravity_Forms\Gravity_Forms\External_API\GF_API_Response::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\external-api\class-gf-api-response.php[179]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\gravityforms.php[142]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED version_compare(): Passing null to parameter #1 ($version1) of type string is deprecated
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\addon\class-gf-addon.php[5755]
+	--- TRACE ---
+	FUNCTION: version_compare               FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\addon\class-gf-addon.php[5755]
+	CLASS___: GFAddOn->is_gravityforms_supportedFILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\addon\class-gf-addon.php[226]
+	CLASS___: GFAddOn->pre_init             FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\addon\class-gf-addon.php[141]
+	CLASS___: GFAddOn->__construct          FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\webapi\webapi.php[68]
+	CLASS___: GFWebAPI::get_instance        FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\webapi\webapi.php[2578]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\gravityforms.php[149]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of GF_Field::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\fields\class-gf-field.php[93]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\fields\class-gf-fields.php[7]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\gravityforms.php[150]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of GF_Field::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\fields\class-gf-field.php[99]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\fields\class-gf-fields.php[7]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\gravityforms.php[150]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of GF_Field::offsetSet($offset, $data) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\fields\class-gf-field.php[108]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\fields\class-gf-fields.php[7]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\gravityforms.php[150]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of GF_Field::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\fields\class-gf-field.php[117]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\fields\class-gf-fields.php[7]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\gravityforms.php[150]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Gravity_Forms\Gravity_Forms\License\GF_License_API_Response implements the Serializable interface, which is deprecated. Implement __serialize() and __unserialize() instead (or in addition, if support for old PHP versions is necessary)
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\license\class-gf-license-api-response.php[17]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\license\class-gf-license-service-provider.php[37]
+	CLASS___: Gravity_Forms\Gravity_Forms\License\GF_License_Service_Provider->registerFILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\class-gf-service-container.php[74]
+	CLASS___: Gravity_Forms\Gravity_Forms\GF_Service_Container->add_providerFILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\gravityforms.php[283]
+	CLASS___: GFForms::register_services    FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[305]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-settings.php[450]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Optional parameter $i declared before required parameter $post_id is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\fields\class-acf-field-repeater.php[715]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\acf-pro.php[68]
+	CLASS___: acf_pro->include_field_types  FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[291]
+	CLASS___: ACF->init                     FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-settings.php[587]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Optional parameter $i declared before required parameter $post_id is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\fields\class-acf-field-repeater.php[781]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\acf-pro.php[68]
+	CLASS___: acf_pro->include_field_types  FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[291]
+	CLASS___: ACF->init                     FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-settings.php[587]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Optional parameter $name declared before required parameter $field is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\fields\class-acf-field-flexible-content.php[1052]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\acf-pro.php[69]
+	CLASS___: acf_pro->include_field_types  FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[291]
+	CLASS___: ACF->init                     FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-settings.php[587]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Optional parameter $i declared before required parameter $post_id is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\fields\class-acf-field-flexible-content.php[1088]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\acf-pro.php[69]
+	CLASS___: acf_pro->include_field_types  FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[291]
+	CLASS___: ACF->init                     FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-settings.php[587]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Optional parameter $i declared before required parameter $post_id is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\fields\class-acf-field-flexible-content.php[1140]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\acf-pro.php[69]
+	CLASS___: acf_pro->include_field_types  FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[291]
+	CLASS___: ACF->init                     FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-settings.php[587]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Optional parameter $id declared before required parameter $field is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\fields\class-acf-field-gallery.php[300]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\acf-pro.php[70]
+	CLASS___: acf_pro->include_field_types  FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[291]
+	CLASS___: ACF->init                     FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-settings.php[587]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Constant FILTER_SANITIZE_STRING is deprecated
+	FILE: C:\xampp\htdoc-----------------------
+[NOTICE] Warnings or notices on WordPress backend tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: C:/xampp/htdocs/aciana//wp-login.php
+E_DEPRECATED Optional parameter $post_id declared before required parameter $field is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-value.php[270]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[127]
+	CLASS___: ACF->initialize               FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[690]
+	FUNCTION: acf                           FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[701]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Optional parameter $value declared before required parameter $field is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-value.php[398]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[127]
+	CLASS___: ACF->initialize               FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[690]
+	FUNCTION: acf                           FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[701]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Optional parameter $post_id declared before required parameter $field is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-value.php[398]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[127]
+	CLASS___: ACF->initialize               FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[690]
+	FUNCTION: acf                           FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[701]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Optional parameter $post_id declared before required parameter $field is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-value.php[483]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[127]
+	CLASS___: ACF->initialize               FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[690]
+	FUNCTION: acf                           FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[701]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Optional parameter $key declared before required parameter $data is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\cache.php[399]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[145]
+	CLASS___: ACF->initialize               FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[690]
+	FUNCTION: acf                           FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[701]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Optional parameter $key declared before required parameter $value is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\ajax\class-acf-ajax.php[99]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[159]
+	CLASS___: ACF->initialize               FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[690]
+	FUNCTION: acf                           FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[701]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Ai1wm_Recursive_Directory_Iterator::hasChildren($allow_links = true) should either be compatible with RecursiveDirectoryIterator::hasChildren(bool $allowLinks = false): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\iterator\class-ai1wm-recursive-directory-iterator.php[61]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\loader.php[114]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\all-in-one-wp-migration.php[73]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Ai1wm_Recursive_Directory_Iterator::rewind() should either be compatible with FilesystemIterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\iterator\class-ai1wm-recursive-directory-iterator.php[39]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\loader.php[114]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\all-in-one-wp-migration.php[73]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Ai1wm_Recursive_Directory_Iterator::next() should either be compatible with DirectoryIterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\iterator\class-ai1wm-recursive-directory-iterator.php[46]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\loader.php[114]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\all-in-one-wp-migration.php[73]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Ai1wm_Recursive_Extension_Filter::getChildren() should either be compatible with RecursiveFilterIterator::getChildren(): ?RecursiveFilterIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\filter\class-ai1wm-recursive-extension-filter.php[51]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\loader.php[130]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\all-in-one-wp-migration.php[73]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Ai1wm_Recursive_Extension_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\filter\class-ai1wm-recursive-extension-filter.php[41]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\loader.php[130]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\all-in-one-wp-migration.php[73]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Ai1wm_Recursive_Exclude_Filter::getChildren() should either be compatible with RecursiveFilterIterator::getChildren(): ?RecursiveFilterIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\filter\class-ai1wm-recursive-exclude-filter.php[67]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\loader.php[138]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\all-in-one-wp-migration.php[73]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Ai1wm_Recursive_Exclude_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\lib\vendor\servmask\filter\class-ai1wm-recursive-exclude-filter.php[43]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\loader.php[138]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\all-in-one-wp-migration\all-in-one-wp-migration.php[73]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of WPCF7_FormTag::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\includes\form-tag.php[396]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\load.php[8]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\wp-contact-form-7.php[70]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of WPCF7_FormTag::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\includes\form-tag.php[388]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\load.php[8]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\wp-contact-form-7.php[70]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of WPCF7_FormTag::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\includes\form-tag.php[382]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\load.php[8]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\wp-contact-form-7.php[70]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of WPCF7_FormTag::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\includes\form-tag.php[400]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\load.php[8]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\wp-contact-form-7.php[70]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of WPCF7_Validation::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\includes\validation.php[78]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\load.php[18]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\wp-contact-form-7.php[70]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of WPCF7_Validation::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\includes\validation.php[72]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\load.php[18]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\wp-contact-form-7.php[70]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of WPCF7_Validation::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\includes\validation.php[59]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\load.php[18]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\wp-contact-form-7.php[70]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of WPCF7_Validation::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\includes\validation.php[82]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\load.php[18]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\contact-form-7\wp-contact-form-7.php[70]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Gravity_Forms\Gravity_Forms\External_API\GF_API_Response::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\external-api\class-gf-api-response.php[179]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\gravityforms.php[142]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED version_compare(): Passing null to parameter #1 ($version1) of type string is deprecated
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\addon\class-gf-addon.php[5755]
+	--- TRACE ---
+	FUNCTION: version_compare               FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\addon\class-gf-addon.php[5755]
+	CLASS___: GFAddOn->is_gravityforms_supportedFILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\addon\class-gf-addon.php[226]
+	CLASS___: GFAddOn->pre_init             FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\addon\class-gf-addon.php[141]
+	CLASS___: GFAddOn->__construct          FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\webapi\webapi.php[68]
+	CLASS___: GFWebAPI::get_instance        FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\webapi\webapi.php[2578]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\gravityforms.php[149]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of GF_Field::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\fields\class-gf-field.php[93]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\fields\class-gf-fields.php[7]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\gravityforms.php[150]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of GF_Field::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\fields\class-gf-field.php[99]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\fields\class-gf-fields.php[7]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\gravityforms.php[150]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of GF_Field::offsetSet($offset, $data) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\fields\class-gf-field.php[108]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\fields\class-gf-fields.php[7]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\gravityforms.php[150]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of GF_Field::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\fields\class-gf-field.php[117]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\fields\class-gf-fields.php[7]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\gravityforms.php[150]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-settings.php[418]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Gravity_Forms\Gravity_Forms\License\GF_License_API_Response implements the Serializable interface, which is deprecated. Implement __serialize() and __unserialize() instead (or in addition, if support for old PHP versions is necessary)
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\license\class-gf-license-api-response.php[17]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\license\class-gf-license-service-provider.php[37]
+	CLASS___: Gravity_Forms\Gravity_Forms\License\GF_License_Service_Provider->registerFILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\includes\class-gf-service-container.php[74]
+	CLASS___: Gravity_Forms\Gravity_Forms\GF_Service_Container->add_providerFILE: C:\xampp\htdocs\aciana\wp-content\plugins\gravityforms\gravityforms.php[283]
+	CLASS___: GFForms::register_services    FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[305]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-settings.php[450]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Optional parameter $i declared before required parameter $post_id is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\fields\class-acf-field-repeater.php[715]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\acf-pro.php[68]
+	CLASS___: acf_pro->include_field_types  FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[291]
+	CLASS___: ACF->init                     FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-settings.php[587]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Optional parameter $i declared before required parameter $post_id is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\fields\class-acf-field-repeater.php[781]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\acf-pro.php[68]
+	CLASS___: acf_pro->include_field_types  FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[291]
+	CLASS___: ACF->init                     FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-settings.php[587]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Optional parameter $name declared before required parameter $field is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\fields\class-acf-field-flexible-content.php[1052]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\acf-pro.php[69]
+	CLASS___: acf_pro->include_field_types  FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[291]
+	CLASS___: ACF->init                     FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-settings.php[587]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Optional parameter $i declared before required parameter $post_id is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\fields\class-acf-field-flexible-content.php[1088]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\acf-pro.php[69]
+	CLASS___: acf_pro->include_field_types  FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[291]
+	CLASS___: ACF->init                     FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-settings.php[587]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Optional parameter $i declared before required parameter $post_id is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\fields\class-acf-field-flexible-content.php[1140]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\acf-pro.php[69]
+	CLASS___: acf_pro->include_field_types  FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[291]
+	CLASS___: ACF->init                     FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-settings.php[587]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Optional parameter $id declared before required parameter $field is implicitly treated as a required parameter
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\fields\class-acf-field-gallery.php[300]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-helpers.php[428]
+	FUNCTION: acf_include                   FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\pro\acf-pro.php[70]
+	CLASS___: acf_pro->include_field_types  FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-content\plugins\advanced-custom-fields-pro\acf.php[291]
+	CLASS___: ACF->init                     FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-settings.php[587]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Constant FILTER_SANITIZE_STRING is deprecated
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\wordpress-seo\src\conditionals\third-party\elementor-edit-conditional.php[22]
+	--- TRACE ---
+	CLASS___: Yoast\WP\SEO\Conditionals\Third_Party\Elementor_Edit_Conditional->is_metFILE: C:\xampp\htdocs\aciana\wp-content\plugins\wordpress-seo\src\loader.php[230]
+	CLASS___: Yoast\WP\SEO\Loader->conditionals_are_metFILE: C:\xampp\htdocs\aciana\wp-content\plugins\wordpress-seo\src\loader.php[197]
+	CLASS___: Yoast\WP\SEO\Loader->load_integrationsFILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-settings.php[587]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Constant FILTER_SANITIZE_STRING is deprecated
+	FILE: C:\xampp\htdocs\aciana\wp-content\plugins\wordpress-seo\src\conditionals\third-party\elementor-edit-conditional.php[28]
+	--- TRACE ---
+	CLASS___: Yoast\WP\SEO\Conditionals\Third_Party\Elementor_Edit_Conditional->is_metFILE: C:\xampp\htdocs\aciana\wp-content\plugins\wordpress-seo\src\loader.php[230]
+	CLASS___: Yoast\WP\SEO\Loader->conditionals_are_metFILE: C:\xampp\htdocs\aciana\wp-content\plugins\wordpress-seo\src\loader.php[197]
+	CLASS___: Yoast\WP\SEO\Loader->load_integrationsFILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\aciana\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\aciana\wp-includes\plugin.php[474]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\aciana\wp-settings.php[587]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-config.php[103]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\aciana\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\aciana\wp-content\wp_test_script_c8ae94d-28084645.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated
+	FILE: C:\xampp\htdocs\aciana\wp-includes\formatting.php[5373]
+	--- TRACE ---
+	FUNCTION: preg_replace                  FILE: C:\xampp\htdocs\aciana\wp-includes\formatting.php[5373]
+	FUNCTION: wp_strip_all_tags             FILE: C:\xampp\htdocs\aciana\wp-includ====================================
+LOG-TIME[C:\xampp\htdocs\aciana\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.13918]  MESSAGE:END RENDER PAGE

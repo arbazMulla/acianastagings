@@ -1,0 +1,73 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: March 29, 2023 7:10 am
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.3.1
+WORDPRESS:	6.1.1
+PHP INFO:	8.1.12 | SAPI: apache2handler
+SERVER:		Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.1.12 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (512M default) 
+MEMORY STACK: 66MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: aciana_918c803ca182a6f38925_20230329071035_database.sql
+SQL FILE SIZE: 3.8MB (3982997)
+SQL FILE TIME: 2023-03-29 07:11:08
+SQL RUNTIME: 8.55 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  C:/xampp/htdocs/aciana
+ARCHIVE FILE: aciana_918c803ca182a6f38925_20230329071035_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	209.49MB
+STATS:	Dirs 2,703 | Files 12,110
+SQL ADDED: aciana_918c803ca182a6f38925_20230329071035_database.sql
+ZipArchive Object
+(
+    [lastId] => 14812
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 14813
+    [filename] => C:\xampp\htdocs\aciana\wp-content\backups-dup-lite\tmp\aciana_918c803ca182a6f38925_20230329071035_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 14812
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 83.07MB
+ARCHIVE RUNTIME: 99.19 sec.
+MEMORY STACK: 66MB
+building installer
+ARCHIVE CONSISTENCY TEST: PASS
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 3.8MB
+INSTALLER FILE: 73.34KB
+ARCHIVE FILE: 85.08MB 
+EXPECTED FILE/DIRECTORY COUNT: 14,813
+ACTUAL FILE/DIRECTORY COUNT: 14,812
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[3]
+TOTAL PROCESS RUNTIME: 109.96 sec.
+PEAK PHP MEMORY USED: 70MB
+DONE PROCESSING => aciana March 29, 2023 7:12 am
+

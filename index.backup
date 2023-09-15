@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Aciana Healthcare</title>
+	<style type="text/css">
+		body { background: #d6dee5; margin: 0px; padding: 0px; }
+		div { width: 100%; }
+		div.align { padding: 0px auto; margin: 0px auto; width: 1440px;}
+	</style>
+</head>
+<body>
+	<div>
+		<div class="align">
+		<img src="images/Homepage.png" alt="" usemap="#Map"/>
+        <map name="Map">
+          <area shape="rect" coords="684,26,787,57" href="Products-Healthcare.html">
+          <area shape="rect" coords="805,25,910,59" href="Services-Healthcare.html">
+          <area shape="rect" coords="1051,26,1134,58" href="about-us.html">
+          <area shape="rect" coords="1150,23,1241,58" href="Contact-us.html">
+          <area shape="rect" coords="123,26,249,62" href="index.html">
+          <area shape="rect" coords="131,456,417,518" href="Products-Healthcare.html">
+          <area shape="rect" coords="125,539,303,580" href="about-us.html">
+          <area shape="rect" coords="257,1045,1204,1337" href="Products-Healthcare.html">
+          <area shape="rect" coords="209,1401,1168,1690" href="Products-Computer.html">
+          <area shape="rect" coords="239,1739,1186,2025" href="Products-Clinical.html">
+          <area shape="rect" coords="219,2107,1184,2377" href="Products-Financial.html">
+          <area shape="rect" coords="213,2437,1192,2748" href="Products-Admin.html">
+          <area shape="rect" coords="139,3012,401,3240" href="Services-Healthcare.html">
+          <area shape="rect" coords="437,3009,703,3246" href="Services-Application.html">
+          <area shape="rect" coords="736,3009,1004,3250" href="Services-Analytics.html">
+          <area shape="rect" coords="1042,3012,1304,3246" href="Services-Data.html">
+          <area shape="rect" coords="1113,3339,1313,3401" href="Contact-us.html">
+        </map>
+			</div>
+</div>
+</body>
+</html>
