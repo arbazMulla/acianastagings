@@ -1,0 +1,15 @@
+.textarea ul .enabled {
+  display: block;
+}
+[dir=rtl] .textarea ul .enabled label {
+  padding-left: 4px;
+}
+.textarea ul .description {
+  margin: 10px 0 4px 0;
+  width: 80vw;
+}
+.textarea ul textarea {
+  height: 200px;
+  width: 80vw;
+  white-space: pre-line;
+}/*# sourceMappingURL=textarea.css.map */

@@ -435,9 +435,7 @@
                         "http:\/\/localhost\/acianastagings\/wp-content\/themes\/aciana\/assets\/css\/app.min.css?ver=6.3.1",
                         "acianastagings\/wp-content\/cache\/minify\/8c6e9.default.include.19ac42.css",
                         "http:\/\/localhost\/acianastagings\/wp-content\/themes\/aciana\/style.css?ver=6.3.1",
-                        "http:\/\/localhost\/acianastagings\/wp-content\/themes\/aciana\/css\/custom.css?ver=6.3.1",
-                        "acianastagings\/wp-content\/cache\/minify\/8c6e9.default.include.5b857a.css",
-                        "http:\/\/localhost\/acianastagings\/wp-content\/uploads\/uag-plugin\/assets\/0\/uag-css-2-1694688094.css?ver=2.7.9"
+                        "http:\/\/localhost\/acianastagings\/wp-content\/themes\/aciana\/css\/custom.css?ver=6.3.1"
                     ]
                 }
             }

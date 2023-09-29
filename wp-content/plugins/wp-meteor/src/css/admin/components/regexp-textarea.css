@@ -1,0 +1,42 @@
+.regexp-textarea ul .enabled {
+  display: block;
+}
+[dir=rtl] .regexp-textarea ul .enabled label {
+  padding-left: 4px;
+}
+.regexp-textarea ul .description {
+  margin: 10px 0 4px 0;
+  width: 80vw;
+}
+.regexp-textarea ul div[contenteditable] {
+  white-space: pre;
+  display: inline-block;
+  min-height: 16em;
+  background-color: white;
+  box-shadow: 0 0 0 transparent;
+  border-radius: 4px;
+  border: 1px solid #8c8f94;
+  background-color: #fff;
+  color: #2c3338;
+  overflow: auto;
+  padding: 2px 6px;
+  line-height: 1.42857143;
+  resize: vertical;
+  width: 80%;
+}
+.regexp-textarea ul div[contenteditable] .error {
+  margin: 0;
+  border-bottom: 0;
+  border-top: 0;
+  padding: 0 4px;
+}
+.regexp-textarea ul div[contenteditable] .error::after {
+  content: "invalid regular expression";
+  float: right;
+  color: red;
+}
+.regexp-textarea ul textarea {
+  height: 200px;
+  width: 80vw;
+  white-space: pre-line;
+}/*# sourceMappingURL=regexp-textarea.css.map */

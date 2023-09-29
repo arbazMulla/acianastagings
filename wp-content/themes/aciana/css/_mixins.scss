@@ -1,0 +1,15 @@
+@mixin bannerHeading{
+    font-family: $font-family-base;
+    color: #092124;
+    font-size: 312.5%;
+    text-shadow: none;
+    line-height: 1.1;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 500;
+}

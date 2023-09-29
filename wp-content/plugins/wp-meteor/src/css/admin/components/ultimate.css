@@ -1,0 +1,47 @@
+.ultimate ul {
+  display: flex;
+  flex-direction: column;
+}
+.ultimate ul li {
+  font-size: 1.2em;
+}
+.ultimate ul li .enabled {
+  display: flex;
+  margin: 0 4px;
+  width: 322px;
+  /* width: 434px; for 3s and 4s delays */
+  overflow: hidden;
+  line-height: 22px;
+}
+.ultimate ul li .enabled .slider {
+  margin: 4px;
+  width: 112px;
+  /* width: 224px; for 3s and 4s delays */
+  height: 20px;
+}
+.ultimate ul li .enabled .thumb {
+  height: 20px;
+  line-height: 20px;
+  width: 20px;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  border-radius: 50%;
+  cursor: grab;
+  box-shadow: 0 0 2px 3px #3bf;
+}
+.ultimate ul li .enabled .track {
+  top: 0;
+  bottom: 0;
+  height: 16px;
+  margin: 2px 0;
+  border-radius: 999px;
+}
+.ultimate ul li label, .ultimate ul li .question-mark {
+  margin-left: 8px;
+  line-height: 30px;
+}
+.ultimate ul li .question-mark {
+  margin-left: 4px;
+  cursor: pointer;
+}/*# sourceMappingURL=ultimate.css.map */
