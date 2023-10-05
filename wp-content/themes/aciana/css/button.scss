@@ -1,0 +1,131 @@
+.btn {
+	--#{$prefix}btn-focus-box-shadow: none;
+	--#{$prefix}btn-icon-width: 0.8rem;
+	--#{$prefix}btn-font-weight: 500;
+	--#{$prefix}btn-outline-color: var(--#{$prefix}white);
+	--#{$prefix}btn-outline-width: var(--#{$prefix}btn-border-width);
+	// --#{$prefix}btn-border-radius: var(--#{$prefix}btn-border-width);
+    
+	position: relative;
+
+	.btn-check:focus + &,
+	.btn-check:focus-within + &,
+	.btn-check:focus-visible + &{
+		color: var(--#{$prefix}btn-active-color);
+		background-color: var(--#{$prefix}btn-active-bg);
+		border-color: var(--#{$prefix}btn-active-border-color);
+	}
+
+	// box-shadow: 0 6px 10px 0 rgba(255,62,60,.3);
+	border-radius: 5px 20px;
+
+	&:hover{
+		// box-shadow: 0 10px 10px 0 rgba(255,62,60,.3);
+	}
+}
+.btn-primary{
+	&:hover{
+		background-color: $primary-dark !important;
+	}
+}
+.btn-white {
+	--#{$prefix}btn-color: var(--#{$prefix}primary);
+	--#{$prefix}btn-bg: var(--#{$prefix}white);
+	--#{$prefix}btn-border-color: var(--#{$prefix}btn-bg);
+	
+    
+	--#{$prefix}btn-hover-color: var(--#{$prefix}btn-color);
+	--#{$prefix}btn-hover-bg: var(--#{$prefix}white);
+	--#{$prefix}btn-hover-border-color: var(--#{$prefix}btn-hover-bg);
+	
+
+	--#{$prefix}btn-active-color: var(--#{$prefix}btn-color);
+	--#{$prefix}btn-active-bg: var(--#{$prefix}white);
+	--#{$prefix}btn-active-border-color: var(--#{$prefix}btn-active-bg);
+
+	&.btn-link {
+		--#{$prefix}btn-hover-color: var(--#{$prefix}gray-700);
+		--#{$prefix}btn-border-color: var(--#{$prefix}btn-color);
+		--#{$prefix}btn-hover-border-color: var(--#{$prefix}btn-hover-color);
+		--#{$prefix}btn-active-border-color: var(--#{$prefix}btn-active-color);
+	}
+}
+
+.btn-icon {
+	--#{$prefix}icon-color: var(--#{$prefix}btn-color);
+	--#{$prefix}icon-width: var(--#{$prefix}btn-icon-width);
+
+	&::after {
+		content: "";
+		display: inline-block;
+		vertical-align: middle;
+		width: var(--#{$prefix}icon-width);
+		height: var(--#{$prefix}icon-width);
+		margin: 0 0 0 0.8rem;
+		transition: all 0.15s ease-in-out;
+		background: var(--#{$prefix}icon-color);
+		mask-image: var(--icon-uri);
+		-webkit-mask-image: var(--icon-uri);
+	}
+  
+	&:hover {
+		--#{$prefix}icon-color: var(--#{$prefix}btn-hover-color);
+        
+	}
+
+	&:active,
+	&:focus,
+	&:focus-visible,
+	&:focus-within {
+		--#{$prefix}icon-color: var(--#{$prefix}btn-active-color);
+	}
+}
+
+.btn-link {
+	--#{$prefix}btn-color: inherit;
+	--#{$prefix}btn-bg: transparent;
+	--#{$prefix}btn-border-color: var(--#{$prefix}btn-color);
+
+	// --#{$prefix}btn-hover-color: var(--#{$prefix}btn-color);
+	// --#{$prefix}btn-hover-bg: var(--#{$prefix}btn-bg);
+	// --#{$prefix}btn-hover-border-color: var(--#{$prefix}btn-hover-bg);
+
+	// --#{$prefix}btn-active-color: var(--#{$prefix}btn-color);
+	// --#{$prefix}btn-active-bg: var(--#{$prefix}btn-bg);
+	// --#{$prefix}btn-active-border-color: var(--#{$prefix}btn-active-bg);
+
+	--#{$prefix}btn-border-width: 0.125rem;
+	--#{$prefix}btn-padding-x: 0;
+	--#{$prefix}btn-padding-y: 0.25rem;
+	--#{$prefix}btn-border-radius: 0;
+
+	// border: var(--#{$prefix}btn-border-width) solid var(--#{$prefix}btn-border-color);
+	// border-width: 0 0 var(--#{$prefix}btn-border-width) 0;
+	// border-radius: var(--#{$prefix}btn-border-radius);
+	// padding: var(--#{$prefix}btn-padding-y) var(--#{$prefix}btn-padding-x);
+	// background: transparent !important;
+
+	// &:hover {
+	// 	border-color: var(--#{$prefix}btn-hover-border-color);
+	// }
+
+	// &:active,
+	// &:focus,
+	// &:focus-visible,
+	// &:focus-within {
+	// 	border-color: transparent !important;
+
+	// 	&::before {
+	// 		--#{$prefix}btn-border-width: 0.125rem;
+	// 		--#{$prefix}btn-active-border-color: var(--#{$prefix}btn-active-color);
+	// 		--#{$prefix}btn-outline-color: var(--#{$prefix}btn-active-color);
+	// 		border-style: dashed;
+	// 		top: calc(-1 * var(--#{$prefix}btn-outline-width));
+	// 		bottom: calc(-1 * var(--#{$prefix}btn-outline-width));
+	// 		left: calc(-1 * (var(--#{$prefix}btn-outline-width) + 0.5rem));
+	// 		right: calc(-1 * (var(--#{$prefix}btn-outline-width) + 0.5rem));
+	// 	}
+	// }
+
+	
+}

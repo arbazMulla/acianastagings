@@ -11,10 +11,10 @@ body {
   font-weight: 500;
 }
 
-.container-fluid {
+/* .container-fluid {
   max-width: 1200px;
   position: relative;
-}
+} */
 #page {
   overflow: hidden;
 }
@@ -942,9 +942,9 @@ a.go-back:focus {
   font-weight: 600;
 }
 
-.entry-content p {
+/* .entry-content p {
   margin-bottom: 40px;
-}
+} */
 .entry-content blockquote {
   border-left: 5px solid #ff3e3c;
   padding: 0 0 0 40px;
@@ -993,14 +993,14 @@ a.go-back:focus {
 .entry-content h5 {
   margin: 0 0 30px;
 }
-.entry-content h3 {
+/* .entry-content h3 {
   font-family: "Exo", sans-serif;
   font-weight: 500;
   margin: 0 0 30px;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 1.35;
-}
+} */
 .entry-content .gform_wrapper {
   max-width: 771px;
 }
