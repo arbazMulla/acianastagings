@@ -41,19 +41,19 @@ $slidersContent = get_field('slider_items');
                 $bannerimage = $slider['banner_image'];
             ?>
                 <div class="row d-flex slider-item">
-                    <div class="col-lg-7 py-5 banner-content-column">
+                    <div class="col-lg-7 banner-content-column">
                         <img class="img-fluid mb-3" src="<?php echo $subimage; ?>" alt="">
-                        <h1 class="mb-3 lh-1 w-75"> <?php echo $bannertitle; ?></h1>
-                        <p class="h5 mb-4"> <?php echo $bannerdescription; ?></p>
+                        <h1 class="mb-3 lh-1 w-75 w-sm-100"> <?php echo $bannertitle; ?></h1>
+                        <p class="h5 mb-4 w-75 w-sm-100"> <?php echo $bannerdescription; ?></p>
                         <div>
-                            <a href="#" class="btn btn-primary btn-icon text-white icon-arrow p-3 mb-3"><?php echo $ctabutton; ?></a>
+                            <a href="#" class="btn btn-primary btn-icon btn-iconColor text-white icon-arrow p-3 mb-3"><?php echo $ctabutton; ?></a>
                         </div>
                         <div>
-                            <a href="#" class="btn-link"><?php echo $ctalink; ?></a>
+                            <a href="#" class="text-blue fw-bold"><?php echo $ctalink; ?></a>
                         </div>
                     </div>
                     <div class="col-lg-5 d-flex justify-content-lg-end justify-content-md-start">
-                        <img class="img-fluid" src="<?php echo $bannerimage; ?>" alt="">
+                        <img class="img-fluid img-responsive" src="<?php echo $bannerimage; ?>" alt="">
                     </div>
                 </div>
             <?php
@@ -65,11 +65,10 @@ $slidersContent = get_field('slider_items');
 
                 jQuery('#carousel-<?= $block['anchor'] ?? $block['id']; ?>').slick({
                     dots: true,
-                    // autoplay: true,
+                    autoplay: true,
                     autoplaySpeed: 6000,
                     infinite: true,
                     fade: true,
-                    // transition: '5s ease-in-out'
                 });
             });
         </script>

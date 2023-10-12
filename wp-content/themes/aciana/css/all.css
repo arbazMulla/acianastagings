@@ -9685,7 +9685,6 @@ textarea.form-control-lg {
   --ahs-btn-outline-color: var(--ahs-white);
   --ahs-btn-outline-width: var(--ahs-btn-border-width);
   position: relative;
-  box-shadow: 0 6px 10px 0 rgba(255, 62, 60, 0.3);
   border-radius: 5px 20px;
 }
 .btn-check:focus + .btn, .btn-check:focus-within + .btn, .btn-check:focus-visible + .btn {
@@ -9693,12 +9692,14 @@ textarea.form-control-lg {
   background-color: var(--ahs-btn-active-bg);
   border-color: var(--ahs-btn-active-border-color);
 }
-.btn:hover {
-  box-shadow: 0 10px 10px 0 rgba(255, 62, 60, 0.3);
+
+.btn-iconColor {
+  --ahs-btn-color: var(--ahs-white);
+  --ahs-btn-hover-color: var(--ahs-btn-color);
 }
 
 .btn-primary:hover {
-  color: #cc3230;
+  background-color: #cc3230 !important;
 }
 
 .btn-white {
@@ -9738,9 +9739,6 @@ textarea.form-control-lg {
 .btn-icon:hover {
   --ahs-icon-color: var(--ahs-btn-hover-color);
 }
-.btn-icon:active, .btn-icon:focus, .btn-icon:focus-visible, .btn-icon:focus-within {
-  --ahs-icon-color: var(--ahs-btn-active-color);
-}
 
 .btn-link {
   --ahs-btn-color: inherit;
@@ -9752,42 +9750,46 @@ textarea.form-control-lg {
   --ahs-btn-border-radius: 0;
 }
 
-h1,
-.h1 {
+.text-blue {
+  color: #26c7d9;
+}
+
+h1, .h1 {
   font-size: 3.125rem;
   line-height: 1.3;
+  font-family: "Exo", sans-serif;
 }
 
-h2,
-.h2 {
-  font-size: 2.5rem;
-  line-height: 1.3;
-}
-
-h3,
-.h3 {
-  font-size: 2rem;
-  line-height: 1.4;
-}
-
-h4,
-.h4 {
+p {
+  color: #6c757d;
   font-size: 1.5rem;
-  line-height: 1.4;
-}
-
-h5,
-.h5 {
-  font-size: 1.25rem;
-  line-height: 1.4;
-}
-
-h6,
-.h6 {
-  font-size: 1rem;
-  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
 }
 
 .w-75 {
   width: 75%;
+}
+
+@media (min-width: 300px) {
+  h1, .h1 {
+    font-size: 2.063rem !important;
+  }
+  .w-sm-100 {
+    width: 100% !important;
+  }
+}
+@media (min-width: 781px) {
+  h1, .h1 {
+    font-size: 2.5rem !important;
+  }
+}
+@media (min-width: 1024px) {
+  h1, .h1 {
+    font-size: 3.125rem !important;
+  }
+}
+@media (min-width: 1400px) {
+  h1, .h1 {
+    font-size: 3.15rem !important;
+  }
 }/*# sourceMappingURL=all.css.map */

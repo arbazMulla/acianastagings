@@ -32,7 +32,6 @@ AND ANY CHANGES MADE HERE WILL BE OVERWRITTEN.
 
 @font-face {
 	font-family: 'gform-icons-admin';
-	font-display: swap;
 	src:
 		url('../../../fonts/gform-icons-admin.woff2?ki990q') format('woff2'),
 		url('../../../fonts/gform-icons-admin.ttf?ki990q') format('truetype'),
