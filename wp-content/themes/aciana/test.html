@@ -19,7 +19,7 @@
                 <nav class="navbar navbar-expand-lg p-0 m-0">
                     <div class="container-fluid">
                         <img src="images/logo.png" alt="" />
-                        <button
+                        <!-- <button
                             class="navbar-toggler"
                             type="button"
                             data-bs-toggle="collapse"
@@ -27,8 +27,17 @@
                             aria-controls="navbarSupportedContent"
                             aria-expanded="false"
                             aria-label="Toggle navigation"
-                        >
-                            <span class="navbar-toggler-icon"></span>
+                        > -->
+                        <div class="navbar-toggler nav-toggle" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                          </div>
+                          
                         </button>
 
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -153,6 +162,12 @@
                     })
                     .mouseleave(function () {
                         console.log("Leave");
+                    });
+
+                    jQuery('.nav-toggle').click(function() {
+                        jQuery(this).toggleClass('active');
+                        jQuery('.navbar-collapse').addClass('fade-in-top'); 
+                        jQuery('.navbar-collapse').addClass('fade-in-top'); 
                     });
             });
         </script>

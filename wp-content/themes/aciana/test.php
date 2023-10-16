@@ -34,15 +34,19 @@
                     <a href="<?php echo esc_url(home_url('/')); ?>" rel="home"">
                         <img src=" <?php echo get_template_directory_uri(); ?>/images/logo.png" alt="" />
                     </a>
-                    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <button class="nav-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <!-- <span class="nav-toggle "> -->
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <!-- </span> -->
 
-                    </button> -->
-                    <span class="nav-toggle ">
+                    </button>
+                    <!-- <span class="nav-toggle ">
                         <span></span>
                         <span></span>
                         <span></span>
-                    </span>
+                    </span> -->
 
                     <div class="collapse navbar-collapse" id="main-menu">
                         <?php
@@ -76,10 +80,9 @@
         jQuery(document).ready(function() {
 
             jQuery('.nav-toggle').on('click', function() {
-                jQuery(this).toggleClass("open");
-                console.log('Clicked');
-                jQuery('.navbar-collapse').toggleClass('show');
+                jQuery('.navbar-collapse').addClass('fade-in-top');
             })
+
 
             jQuery('#menu-header_menu li.dropdown a').addClass('d-flex align-items-center gap-2 pe-0')
             jQuery('.dropdown-menu').addClass('p-0 ps-3 py-lg-3 py-sm-0 py-md-0 pe-1 position-absolute border-0 width-300');
