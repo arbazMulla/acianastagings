@@ -1,82 +1,93 @@
 $primary: #ff3e3c;
 $secondary: #26c7d9;
 $darkblue: #092124;
+$white: #fff;
 $fontRaleway: "Raleway", sans-serif;
 
 .container {
     max-width: 1200px !important;
+}
+.py-xsm-4{
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+.mt-xsm-2{
+    margin-top: 1.4rem !important;
+}
+.align-items-xsm-baseline{
+    align-items: flex-start;
 }
 button{
     
     border: none !important;
     background-color: transparent;
 }
-    .nav-toggle {
-            border: none;
-            float: right;
-            display: none;
-            position: relative;
+.nav-toggle {
+        border: none;
+        float: right;
+        display: none;
+        position: relative;
+        width: 24px;
+        height: 18px;
+        margin-top: 3px;
+        z-index: 1000;
+    
+        span {
             width: 24px;
-            height: 18px;
-            margin-top: 3px;
-            z-index: 1000;
-        
-            span {
-                width: 24px;
-                height: 2px;
-                background: #ff3e3c;
-                position: absolute;
-                border-radius: 30px;
-                top: 0;
-                right: 0;
-                transform: rotate(0);
-                transition: all 0.25s cubic-bezier(0.22, 0.61, 0.36, 1);
-                opacity: 1;
-        
-                &:nth-child(2) {            
-                    top: 7px;
-                }
-                &:nth-child(3) {            
-                    top: 14px;
-                    width: 12px;
-                }
+            height: 2px;
+            background: #ff3e3c;
+            position: absolute;
+            border-radius: 30px;
+            top: 0;
+            right: 0;
+            transform: rotate(0);
+            transition: all 0.25s cubic-bezier(0.22, 0.61, 0.36, 1);
+            opacity: 1;
+    
+            &:nth-child(2) {            
+                top: 7px;
             }
-            &.open span:nth-child(1) {        
-                top: 8px;
-                transform: rotate(135deg);
+            &:nth-child(3) {            
+                top: 14px;
+                width: 12px;
             }
-            &.open span:nth-child(2) {        
-                left: -14px;
-                opacity: 0;
-            }
-            &.open span:nth-child(3) {        
-                top: 8px;
-                width: 24px;
-                transform: rotate(-135deg);
-            }
-                    
-            @media screen and (max-width: 992px){
-                display: block;
-            }
-
-         &.active{
-            span:nth-child(1){
-                transform: rotate(135deg);
-                top: 3px;
-                /* left: 5px; */
-                width: 24px;
-            }
-            span:nth-child(3){
-                width: 24px;
-                transform: rotate(43.3deg);
-                top: 3px;
-                // left: 5px;
-            }
-            span:nth-child(2){
-                display: none;
-            }
-         }
         }
+        &.open span:nth-child(1) {        
+            top: 8px;
+            transform: rotate(135deg);
+        }
+        &.open span:nth-child(2) {        
+            left: -14px;
+            opacity: 0;
+        }
+        &.open span:nth-child(3) {        
+            top: 8px;
+            width: 24px;
+            transform: rotate(-135deg);
+        }
+                
+        @media screen and (max-width: 992px){
+            display: block;
+        }
+
+        &.active{
+        span:nth-child(1){
+            transform: rotate(135deg);
+            top: 7px;
+            /* left: 5px; */
+            width: 24px;
+        }
+        span:nth-child(3){
+            width: 24px;
+            transform: rotate(43.3deg);
+            top: 7px;
+            // left: 5px;
+        }
+        span:nth-child(2){
+            display: none;
+        }
+        }
+    }
 
 .dropdown-toggle::after {
     background-image: url("images/angledown.svg");
@@ -168,25 +179,38 @@ a {
                 }
             }
         }
-    }
-}
-ul.sub-dropdown-menu {
-    position: absolute;
-    border-radius: 0.375rem;
-    box-shadow: 0 1px 10px 0 rgba(95, 111, 113, 0.5);
-    padding: 1rem;
-    left: 17.7rem;
-    width: 300px;
-    top: 0.3rem;
-
-    @media screen and (max-width: 994px) {
-        box-shadow: none;
-        width: 100% !important;
+        ul.sub-dropdown-menu {
+            position: absolute;
+            border-radius: 0.375rem;
+            box-shadow: 0 1px 10px 0 rgba(95, 111, 113, 0.5);
+            padding: 1rem;
+            left: 17.7rem;
+            width: 300px;
+            top: 0.3rem;
+        
+            @media screen and (max-width: 994px) {
+                box-shadow: none;
+                width: 100% !important;
+            }
+        }
     }
 }
 
 .navbar-collapse {
     flex-grow: 0 !important;
+    height: 0;
+    transition:  0.3s ease-in-out;
+    z-index: 9999;
+    ul{
+        background-color: $white;        
+    }
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.2s, visibility 0.2s;
+    &.fade-out {
+        opacity: 0;
+        visibility: hidden;
+    }
 }
 
 .fade-in-top {

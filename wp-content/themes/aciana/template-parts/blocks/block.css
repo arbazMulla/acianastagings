@@ -9754,6 +9754,10 @@ textarea.form-control-lg {
   color: #26c7d9;
 }
 
+.container {
+  max-width: 1200px;
+}
+
 h1, .h1 {
   font-size: 3.125rem;
   line-height: 1.3;

@@ -19,12 +19,13 @@
 		<div class="site-info">
 			<div class="row">
 				<div class="col-xs-8 footer-col">
-					<?php printmeta('footer_message', '<p>%s</p>', '', 'option'); ?>
+					<?php #printmeta('footer_message', '<p>%s</p>', '', 'option'); 
+					?>
 					<ul class="list-inline social-links">
 						<?php
-						printmeta('instagram', '<li class="ln"><a href="%s" title="Linkedin" target="_blank"><i class="icon-linkedin-sq"></i></a></li>', '', 'option');
-						printmeta('facebook', '<li class="fb"><a href="%s" title="Facebook" target="_blank"><i class="icon-facebook"></i></a></li>', '', 'option');
-						printmeta('twitter', '<li class="fb"><a href="%s" title="Twitter" target="_blank"><i class="icon-twitter"></i></a></li>', '', 'option');
+						#printmeta('instagram', '<li class="ln"><a href="%s" title="Linkedin" target="_blank"><i class="icon-linkedin-sq"></i></a></li>', '', 'option');
+						#printmeta('facebook', '<li class="fb"><a href="%s" title="Facebook" target="_blank"><i class="icon-facebook"></i></a></li>', '', 'option');
+						#printmeta('twitter', '<li class="fb"><a href="%s" title="Twitter" target="_blank"><i class="icon-twitter"></i></a></li>', '', 'option');
 						?>
 					</ul>
 				</div><!-- .col -->
@@ -36,13 +37,8 @@
 	</div><!-- .container-fluid -->
 </footer><!-- #colophon -->
 </div><!-- #page -->
-<div class="mobile-navigation">
-	<div class="mobile-navigation-inner">
-		<nav role="navigation">
-			<?php wp_nav_menu(array('theme_location' => 'primary', 'menu_id' => 'primary-menu-2')); ?>
-		</nav><!-- #site-navigation -->
-	</div>
-</div>
+
+
 <?php wp_footer(); ?>
 
 </body>

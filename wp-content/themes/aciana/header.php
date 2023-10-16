@@ -22,6 +22,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500&family=Poppins:wght@500;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/heade.css' ?>">
+
 
     <!-- Google Tag Manager -->
     <script>
@@ -52,29 +54,81 @@
     <div id="page" class="hfeed site">
         <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e('Skip to content', 'aciana'); ?></a>
 
-        <header id="masthead" class="site-header d-flex align-items-center p-4" role="banner">
+        <header id="masthead" class="shadow-sm bg-white d-flex justify-content-between align-items-center min-vh-84" role="banner">
             <div class="container">
-                <div class="d-flex justify-content-between align-items-center">
-                    <div class="site-branding">
-                        <?php if (is_front_page() || is_home()) : ?>
-                            <h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
-                        <?php else : ?>
-                            <p class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></p>
-                        <?php endif; ?>
+                <nav class="navbar navbar-expand-lg p-0 m-0">
+                    <div class="container-fluid d-flex align-items-center justify-content-between">
+                        <a href="<?php echo esc_url(home_url('/')); ?>" rel="home"">
+                        <img src=" <?php echo get_template_directory_uri(); ?>/images/logo.png" alt="" />
+                        </a>
+                        <div class="nav-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation" data-bs-no-animation="true">
+                            <span class="nav-toggle">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </div>
+                        <div class="collapse navbar-collapse" id="main-menu">
+                            <?php
+                            wp_nav_menu(array(
+                                'theme_location' => 'primary',
+                                'container' => false,
+                                'menu_class' => '',
+                                'fallback_cb' => '__return_false',
+                                'items_wrap' => '<ul id="%1$s" class="navbar-nav align-items-xsm-baseline align-items-sm-start gap-lg-5 gap-sm-2 mt-sm-4 mt-xsm-2 mt-lg-0 py-xsm-4">%3$s</ul>',
+                                'depth' => 3,
+                                'walker' => new bootstrap_5_wp_nav_menu_walker()
+                            ));
+                            ?>
+                        </div>
                     </div>
-                    <!-- .site-branding -->
-                    <span class="menuToggle nav-toggle">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </span>
-                    <nav id="site-navigation" class="main-navigation" role="navigation">
-                        <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_id' => 'primary-menu'));
-                        ?>
-                    </nav>
-                    <!-- #site-navigation -->
-                </div>
-            </div><!-- .container -->
-        </header><!-- #masthead -->
+                </nav>
+            </div>
+        </header>
+        <script>
+            jQuery(document).ready(function() {
 
+                jQuery('.nav-toggle').on('click', function() {
+                    let navBarCol = jQuery(this).toggleClass('active');
+
+                    if (navBarCol.hasClass('active')) {
+                        // jQuery('.navbar-collapse').addClass('show fade-in-top');
+                        // jQuery('.navbar-collapse').removeClass('fade-out-top');
+                        jQuery('.navbar-collapse').fadeToggle();
+                    } else {
+                        jQuery('.navbar-collapse').fadeToggle();
+                        // jQuery('.navbar-collapse').removeClass('show fade-in-top');
+                    }
+                });
+
+                jQuery('#menu-header_menu li.dropdown a').addClass('d-flex align-items-center gap-2 pe-0')
+                jQuery('.dropdown-menu').addClass('p-0 ps-3 py-lg-3 py-sm-0 py-md-0 pe-1 position-absolute border-0 width-300');
+                jQuery('.dropdown-menu-end a').addClass('d-flex align-items-center justify-content-between ')
+                jQuery('.dropdown-menu-end ul.sub-menu').addClass('sub-dropdown-menu');
+                jQuery('.dropdown-menu-end').removeClass('p-0 ps-3 py-3 py-lg-3 dropdown-menu position-absolute width-300');
+
+                jQuery('#menu-header_menu li.dropdown').mouseenter(
+                    function() {
+                        jQuery('.dropdown-menu-end').find('.dropdown-menu').addClass('hide');
+                        jQuery(this).find('.dropdown-menu').addClass('show');
+                    }).mouseleave(
+                    function() {
+                        jQuery(this).find('.dropdown-menu').removeClass('show');
+                    });
+
+                //for sub sub menu
+                jQuery('li.dropdown-menu-end').mouseenter(
+                    function() {
+                        jQuery(this).addClass('active');
+                        jQuery('.dropdown-menu-end').find('.dropdown-menu').removeClass('hide');
+                        jQuery(this).find('ul .sub-menu').addClass('show');
+                    }).mouseleave(
+                    function() {
+                        jQuery(this).removeClass('qwerty');
+                        jQuery(this).find('ul .sub-menu').removeClass('show');
+                        jQuery(this).find('a.dropdown-item').removeClass('active');
+                        jQuery(this).find('a.dropdown-item').removeClass('bisc');
+                    });
+            });
+        </script>
         <div id="content" class="site-content p-4">
