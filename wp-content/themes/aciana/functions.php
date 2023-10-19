@@ -398,20 +398,15 @@ function editor_full_width_gutenberg()
   </style>';
 }
 
-//Advanced Custom FIeld 
-
-//Enqueuing Slick Slider CDN
 
 
 //Enqueuing SCSS Files
 function enqueue_custom_acf_block_styles()
 {
-	wp_enqueue_style('custom-acf-block-styles', get_template_directory_uri() . '/template-parts/blocks/block.css', array(), '1.0', 'all');
+	// wp_enqueue_style('custom-acf-block-styles', get_template_directory_uri() . '/template-parts/blocks/block.css', array(), '1.0', 'all');
 	wp_enqueue_style('ahs-styles', get_template_directory_uri() . '/css/all.min.css', array(), filemtime(get_template_directory() . '/css/all.min.css'));
 }
 add_action('wp_enqueue_scripts', 'enqueue_custom_acf_block_styles');
-
-// ========================
 
 class bootstrap_5_wp_nav_menu_walker extends Walker_Nav_menu
 {

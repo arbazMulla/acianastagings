@@ -52,7 +52,7 @@
   font-size: 20px;
   line-height: 1;
   color: white;
-  opacity: 0.75;
+  opacity: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -139,12 +139,12 @@
   font-size: 12px;
   line-height: 20px;
   text-align: center;
-  color: #ff3e3c;
+  color: lightgray;
   opacity: 0.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 .slick-dots li.slick-active button:before {
   color: #ff3e3c;
-  opacity: 0.75;
+  opacity: 1;
 }/*# sourceMappingURL=slick-theme.css.map */

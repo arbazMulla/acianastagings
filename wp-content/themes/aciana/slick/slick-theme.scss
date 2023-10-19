@@ -18,7 +18,7 @@ $slick-prev-character: "\2190" !default;
 $slick-next-character: "\2192" !default;
 $slick-dot-character: "\2022" !default;
 $slick-dot-size: 12px !default;
-$slick-opacity-default: 0.75 !default;
+$slick-opacity-default: 1 !default;
 $slick-opacity-on-hover: 1 !default;
 $slick-opacity-not-active: 0.5 !default;
 
@@ -181,7 +181,7 @@ $slick-opacity-not-active: 0.5 !default;
                 font-size: $slick-dot-size;
                 line-height: 20px;
                 text-align: center;
-                color: $slick-dot-color;
+                color: $slick-inactive-color;
                 opacity: $slick-opacity-not-active;
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;

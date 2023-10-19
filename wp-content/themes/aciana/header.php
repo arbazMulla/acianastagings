@@ -57,7 +57,7 @@
         <header id="masthead" class="shadow-sm bg-white d-flex justify-content-between align-items-center min-vh-84" role="banner">
             <div class="container">
                 <nav class="navbar navbar-expand-lg p-0 m-0">
-                    <div class="container-fluid d-flex align-items-center justify-content-between">
+                    <div class="container-fluid">
                         <a href="<?php echo esc_url(home_url('/')); ?>" rel="home"">
                         <img src=" <?php echo get_template_directory_uri(); ?>/images/logo.png" alt="" />
                         </a>
@@ -102,7 +102,7 @@
                 });
 
                 jQuery('#menu-header_menu li.dropdown a').addClass('d-flex align-items-center gap-2 pe-0')
-                jQuery('.dropdown-menu').addClass('p-0 ps-3 py-lg-3 py-sm-0 py-md-0 pe-1 position-absolute border-0 width-300');
+                jQuery('.dropdown-menu').addClass('p-0 ps-3 py-lg-3 py-sm-0 py-md-0 pe-1 position-absolute border-0 width-300 mt-xsm-2');
                 jQuery('.dropdown-menu-end a').addClass('d-flex align-items-center justify-content-between ')
                 jQuery('.dropdown-menu-end ul.sub-menu').addClass('sub-dropdown-menu');
                 jQuery('.dropdown-menu-end').removeClass('p-0 ps-3 py-3 py-lg-3 dropdown-menu position-absolute width-300');
@@ -131,4 +131,4 @@
                     });
             });
         </script>
-        <div id="content" class="site-content p-4">
+        <div id="content" class="p-sm-3 p-xsm-3 px-md-4 site-content">

@@ -4,6 +4,7 @@
 	--#{$prefix}btn-font-weight: 500;
 	--#{$prefix}btn-outline-color: var(--#{$prefix}white);
 	--#{$prefix}btn-outline-width: var(--#{$prefix}btn-border-width);	
+	--#{$prefix}btn-border-radius: 5px 20px !important;
     
 	position: relative;
 
@@ -14,18 +15,17 @@
 		background-color: var(--#{$prefix}btn-active-bg);
 		border-color: var(--#{$prefix}btn-active-border-color);
 	}
-
-	border-radius: 5px 20px;
-
 }
 .btn-iconColor {
-	--#{$prefix}btn-color: var(--#{$prefix}white);
-	--#{$prefix}btn-hover-color: var(--#{$prefix}btn-color);
+	--#{$prefix}btn-color: var(--#{$prefix}white) !important;
+	--#{$prefix}btn-hover-color: var(--#{$prefix}btn-color) !important;
 }
 
 .btn-primary{
+	border-radius: var(--#{$prefix}btn-border-radius) !important;	
+	;
 	&:hover{
-		background-color: $primarydark !important;
+		background-color: #CC3230FF !important;	
 	}
 }
 

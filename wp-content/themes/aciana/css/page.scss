@@ -1,0 +1,17 @@
+@import 'bootstrap';
+//Home- Banner
+
+.banner-content-column img{
+    @media screen and (max-width: 778px){
+        width: 120px;
+    }
+}
+//Main Content
+.bgColor{
+    background-color: var(--#{$prefix}secondary) !important;
+    max-width: 100vw ;
+    width: 100vw !important;
+    position: relative;
+    left: calc(-50vw + 49.2%); 
+    
+}

@@ -1,4 +1,28 @@
 .container{
- max-width: 1200px;
+    --#{prefix}container-lg: 1200px;
+    --#{prefix}container-md: 900px;
+    --#{prefix}container-sm: 600px;
+    --#{prefix}container-xsm: 350px;
+
+    @media screen and (max-width:350px){
+        max-width: 900px !important;
+        width: 100% !important;
+    }
+}
+.wp-block-uagb-container.uagb-block-5d8d90e5{
+   
+    @media screen and (max-width: 400px) {
+        margin-top: 12px !important;
+    }
+    @media screen and (min-width: 400px) {
+        margin-top: 30px !important;
+    }
     
 }
+.wp-block-uagb-container.uagb-block-7384c58c{
+    margin-top: 0 !important;
+    padding: 0 !important;
+}
+
+
+

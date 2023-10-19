@@ -26,16 +26,18 @@ $tb_main_text = get_field('tb_main_text');
 $tb_content = get_field('tb_content');
 if ($tb_main_text || $tb_content) {
 ?>
-    <div class="text-banner">
-        <div class="col-max-10 col-center">
-            <div class="row">
-                <div class="col-xs-12 col-md-6 animate-it">
-                    <?php printmeta('tb_main_text', '<p class="ft-text">%s</p>'); ?>
-                </div><!-- .col -->
-                <div class="col-xs-12 col-md-6 animate-it">
-                    <?php the_field('tb_content'); ?>
-                </div><!-- .col -->
-            </div><!-- .row -->
-        </div>
-    </div><!-- text-banner. -->
+    <div class="container-fluid">
+        <div class="text-banner bgColor">
+            <div class="container">
+                <div class="row py-sm-5  p-xsm-3">
+                    <div class="col-xs-12 col-lg-6 p-3 p-lg-4 p-md-4  p-xs-0">
+                        <h3><?php echo $tb_main_text; ?></h3>
+                    </div><!-- .col -->
+                    <div class="col-xs-12 col-lg-6 p-3 p-lg-4  p-md-4 p-xs-0">
+                        <?php echo $tb_content; ?>
+                    </div><!-- .col -->
+                </div><!-- .row -->
+            </div>
+        </div><!-- text-banner. -->
+    </div>
 <?php } ?>
