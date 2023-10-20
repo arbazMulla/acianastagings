@@ -27,7 +27,7 @@ $tb_content = get_field('tb_content');
 if ($tb_main_text || $tb_content) {
 ?>
     <div class="container-fluid">
-        <div class="text-banner bgColor">
+        <div class="text-banner background-Secondary">
             <div class="container">
                 <div class="row py-sm-5  p-xsm-3">
                     <div class="col-xs-12 col-lg-6 p-3 p-lg-4 p-md-4  p-xs-0">

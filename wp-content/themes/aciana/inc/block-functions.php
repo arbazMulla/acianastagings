@@ -64,14 +64,6 @@ function ahs_acf_init()
             'icon'              => 'layout',
             'mode'              => 'edit',
             'post_types'        => array('page'),
-
-
-
-
-
-
-
-
         ]);
     }
 }

@@ -60,6 +60,10 @@ $slidersContent = get_field('slider_items');
             }
             ?>
         </div>
+        <?php
+    endif;
+    ?>
+</div>
         <script>
             jQuery(document).ready(function() {
 
@@ -73,7 +77,3 @@ $slidersContent = get_field('slider_items');
                 });
             });
         </script>
-    <?php
-    endif;
-    ?>
-</div>

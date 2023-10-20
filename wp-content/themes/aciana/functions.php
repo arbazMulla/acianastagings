@@ -50,6 +50,7 @@ if (!function_exists('aciana_setup')) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus(array(
 			'primary' => esc_html__('Primary Menu', 'aciana'),
+			'secondary' => esc_html__('Secondary Menu', 'aciana'),
 		));
 
 		/*
@@ -132,8 +133,7 @@ function aciana_scripts()
 	wp_deregister_script('custom-js', get_template_directory_uri() . '/js/custom.js', array('jquery'), '1.0', true);
 	wp_enqueue_script('custom-js');
 
-
-
+	wp_enqueue_style('font-awesome', 'https://cdn.jsdelivr.net/npm/font-awesome@<VERSION>/css/all.min.css', array());
 
 	if (is_singular() && comments_open() && get_option('thread_comments')) {
 		wp_enqueue_script('comment-reply');
@@ -171,7 +171,6 @@ require get_template_directory() . '/inc/jetpack.php';
  */
 require get_template_directory() . '/inc/custom-functions.php';
 
-
 // function enqueue_custom_scripts()
 // {
 // 	Enqueue app.min.js
@@ -184,7 +183,6 @@ function wp_dereg_script_comment_reply()
 	wp_deregister_script('comment-reply');
 }
 add_action('init', 'wp_dereg_script_comment_reply');
-
 
 function fetch_and_display_pricing_plans()
 {
@@ -337,7 +335,7 @@ function fetch_and_display_pricing_plans()
 					echo '</li>';
 				}
 
-				echo 			'</ul>';
+				echo '</ul>';
 				// && $plan['duration'] === 6 && $plan['duration'] === 12
 				echo '<div class="getStarted premiumButton">';
 				if ($plan['duration'] == 3) {
@@ -362,7 +360,6 @@ function fetch_and_display_pricing_plans()
 	}
 }
 
-
 function display_pricing_plans_shortcode()
 {
 	ob_start();
@@ -370,7 +367,6 @@ function display_pricing_plans_shortcode()
 	return ob_get_clean();
 }
 add_shortcode('display_pricing_plans', 'display_pricing_plans_shortcode');
-
 function preload_logo_image()
 {
 	echo '<link rel="preload" as="image" href="' . get_template_directory_uri() . '/images/logo.png">' . "\n";
@@ -378,8 +374,8 @@ function preload_logo_image()
 add_action('wp_head', 'preload_logo_image');
 
 
-add_action('admin_head', 'editor_full_width_gutenberg');
 
+add_action('admin_head', 'editor_full_width_gutenberg');
 function editor_full_width_gutenberg()
 {
 	echo '<style>
@@ -399,8 +395,6 @@ function editor_full_width_gutenberg()
 }
 
 
-
-//Enqueuing SCSS Files
 function enqueue_custom_acf_block_styles()
 {
 	// wp_enqueue_style('custom-acf-block-styles', get_template_directory_uri() . '/template-parts/blocks/block.css', array(), '1.0', 'all');
@@ -443,40 +437,28 @@ class bootstrap_5_wp_nav_menu_walker extends Walker_Nav_menu
 	function start_el(&$output, $item, $depth = 0, $args = null, $id = 0)
 	{
 		$this->current_item = $item;
-
 		$indent = ($depth) ? str_repeat("\t", $depth) : '';
-
 		$li_attributes = '';
 		$class_names = $value = '';
-
 		$classes = empty($item->classes) ? array() : (array) $item->classes;
-
 		$classes[] = ($args->walker->has_children) ? 'dropdown' : '';
 		$classes[] = 'nav-item';
 		$classes[] = 'nav-item-' . $item->ID;
 		if ($depth && $args->walker->has_children) {
 			$classes[] = 'dropdown-menu dropdown-menu-end';
 		}
-
 		$class_names =  join(' ', apply_filters('nav_menu_css_class', array_filter($classes), $item, $args));
 		$class_names = ' class="' . esc_attr($class_names) . '"';
-
 		$id = apply_filters('nav_menu_item_id', 'menu-item-' . $item->ID, $item, $args);
 		$id = strlen($id) ? ' id="' . esc_attr($id) . '"' : '';
-
 		$output .= $indent . '<li ' . $id . $value . $class_names . $li_attributes . '>';
-
 		$attributes = !empty($item->attr_title) ? ' title="' . esc_attr($item->attr_title) . '"' : '';
 		$attributes .= !empty($item->target) ? ' target="' . esc_attr($item->target) . '"' : '';
 		$attributes .= !empty($item->xfn) ? ' rel="' . esc_attr($item->xfn) . '"' : '';
 		$attributes .= !empty($item->url) ? ' href="' . esc_attr($item->url) . '"' : '';
-
 		$active_class = ($item->current || $item->current_item_ancestor || in_array("current_page_parent", $item->classes, true) || in_array("current-post-ancestor", $item->classes, true)) ? 'active' : '';
 		$nav_link_class = ($depth > 0) ? 'dropdown-item ' : 'nav-link ';
 		$attributes .= ($args->walker->has_children) ? ' class="' . $nav_link_class . $active_class . ' dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"' : ' class="' . $nav_link_class . $active_class . '"';
-
-
-
 
 		$item_output = $args->before;
 		$item_output .= '<a' . $attributes . '>';
@@ -485,5 +467,36 @@ class bootstrap_5_wp_nav_menu_walker extends Walker_Nav_menu
 		$item_output .= $args->after;
 
 		$output .= apply_filters('walker_nav_menu_start_el', $item_output, $item, $depth, $args);
+	}
+}
+
+class HeaderMenuWalker extends Walker_Nav_Menu
+{
+	function start_lvl(&$output, $depth = 0, $args = null)
+	{
+		if ($depth === 0) {
+			$output .= '<ul class="sub-menu">';
+		}
+	}
+	function end_lvl(&$output, $depth = 0, $args = null)
+	{
+		if ($depth === 0) {
+			$output .= '</ul>';
+		}
+	}
+}
+
+class Custom_Bootstrap_5_Walker extends Walker_Nav_Menu
+{
+	public function start_el(&$output, $item, $depth = 0, $args = null, $id = 0)
+	{
+		// Check if the menu item title is one of the specified titles.
+		$menu_item_title = esc_html($item->title);
+
+		$allowed_menu_titles = array('About aciana', 'Insights', 'Contact Us');
+
+		if (in_array($menu_item_title, $allowed_menu_titles)) {
+			$output .= '<li><a href="' . esc_url($item->url) . '">' . esc_html($item->title) . '</a></li>';
+		}
 	}
 }

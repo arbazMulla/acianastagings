@@ -133,3 +133,18 @@
 .text-blue{
 	color: $secondary-dark;	
 }
+.background-Secondary{
+    background-color: var(--#{$prefix}secondary);
+    max-width: 100vw;
+    width: 100vw !important;
+    position: relative;
+    left: calc(-50vw + 50%); 
+}
+.background-Blue{
+    background-color: var(--#{$prefix}blue) !important;
+    max-width: 100vw;
+    width: 100vw !important;
+    position: relative;
+    left: calc(-50vw + 50%); 
+}
+
