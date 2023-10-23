@@ -25,4 +25,13 @@
 .wp-block-uagb-container.uagb-block-7384c58c {
   margin-top: 0 !important;
   padding: 0 !important;
+}
+
+.healthcare_content {
+  background-color: var(--prefixwhite);
+}
+
+.healthcare_content img {
+  width: 70px;
+  height: auto;
 }/*# sourceMappingURL=global.css.map */

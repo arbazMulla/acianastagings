@@ -40,7 +40,7 @@ $slidersContent = get_field('slider_items');
             ?>
                 <div class="container">
                     <div class="row d-flex slider-item">
-                        <div class="col-lg-7 banner-content-column ">
+                        <div class="col-lg-7 banner-content-column p-0">
                             <img class="img-fluid mb-3 img-responsive" src="<?php echo $subimage; ?>" alt="">
                             <h1 class="mb-3 lh-1 w-75 abcd"> <?php echo $bannertitle; ?></h1>
                             <p class="mb-4 "> <?php echo $bannerdescription; ?></p>
@@ -51,7 +51,7 @@ $slidersContent = get_field('slider_items');
                                 <a href="#" class="text-blue fw-bold"><?php echo $ctalink; ?></a>
                             </div>
                         </div>
-                        <div class="col-lg-5 d-flex justify-content-lg-end justify-content-md-start">
+                        <div class="col-lg-5 d-flex justify-content-lg-end justify-content-md-start ps-0 pt-md-3 pt-lg-0">
                             <img class="img-fluid img-responsive" src="<?php echo $bannerimage; ?>" alt="">
                         </div>
                     </div>
@@ -60,20 +60,20 @@ $slidersContent = get_field('slider_items');
             }
             ?>
         </div>
-        <?php
+    <?php
     endif;
     ?>
 </div>
-        <script>
-            jQuery(document).ready(function() {
+<script>
+    jQuery(document).ready(function() {
 
-                jQuery('#carousel-<?= $block['anchor'] ?? $block['id']; ?>').slick({
-                    dots: true,
-                    // autoplay: true,
-                    autoplaySpeed: 6000,
-                    infinite: true,
-                    fade: true,
-                    arrows: false,
-                });
-            });
-        </script>
+        jQuery('#carousel-<?= $block['anchor'] ?? $block['id']; ?>').slick({
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 6000,
+            infinite: true,
+            fade: true,
+            arrows: false,
+        });
+    });
+</script>

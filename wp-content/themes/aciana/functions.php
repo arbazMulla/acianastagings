@@ -133,8 +133,6 @@ function aciana_scripts()
 	wp_deregister_script('custom-js', get_template_directory_uri() . '/js/custom.js', array('jquery'), '1.0', true);
 	wp_enqueue_script('custom-js');
 
-	wp_enqueue_style('font-awesome', 'https://cdn.jsdelivr.net/npm/font-awesome@<VERSION>/css/all.min.css', array());
-
 	if (is_singular() && comments_open() && get_option('thread_comments')) {
 		wp_enqueue_script('comment-reply');
 	}

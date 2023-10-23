@@ -9753,37 +9753,36 @@ textarea.form-control-lg {
   --ahs-btn-border-radius: 0;
 }
 
-.text-blue {
-  color: #26c7d9;
+.background-fluid {
+  max-width: 100vw;
+  width: 100vw !important;
+  position: relative;
+  left: calc(-50vw + 50%);
 }
 
 .background-Secondary {
   background-color: var(--ahs-secondary);
-  max-width: 100vw;
-  width: 100vw !important;
-  position: relative;
-  left: calc(-50vw + 50%);
 }
 
 .background-Blue {
   background-color: var(--ahs-blue) !important;
-  max-width: 100vw;
-  width: 100vw !important;
-  position: relative;
-  left: calc(-50vw + 50%);
 }
 
-.container {
-  --prefixcontainer-lg: 1200px;
-  --prefixcontainer-md: 900px;
-  --prefixcontainer-sm: 600px;
-  --prefixcontainer-xsm: 350px;
+.background-primarylight {
+  background-color: rgb(255, 217, 203) !important;
 }
-@media screen and (max-width: 350px) {
-  .container {
-    max-width: 900px !important;
-    width: 100% !important;
-  }
+
+.btn-primarylight {
+  border-radius: var(--ahs-btn-border-radius) !important;
+  background-color: rgb(255, 129, 127) !important;
+}
+
+.text-blue {
+  color: #26c7d9;
+}
+
+.text-primary-300 {
+  color: rgb(255, 129, 127) !important;
 }
 
 @media screen and (max-width: 400px) {
@@ -9800,6 +9799,16 @@ textarea.form-control-lg {
 .wp-block-uagb-container.uagb-block-7384c58c {
   margin-top: 0 !important;
   padding: 0 !important;
+}
+
+.healthcare_content .content {
+  background-color: var(--ahs-white) !important;
+  box-shadow: 0px 3.8520348072px 42.3723831177px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 4.5px;
+}
+.healthcare_content img {
+  width: 70px;
+  height: 70px;
 }
 
 @media screen and (max-width: 400px) {
@@ -9863,26 +9872,53 @@ p {
     font-size: 3.15rem !important;
   }
 }
-#menu-footer-menu-1,
-#menu-solutions-menu {
+#menu-header_menu-1 {
+  gap: 0 !important;
+  padding: 0 !important;
+}
+
+#menu-products-menu,
+#menu-solutions-menu,
+#menu-header_menu-1 {
   --ahs-text-color: rgba(182, 225, 236, 1);
+  --ahs-text-hover-color: var(--ahs-white);
   --ahs-font-family: "Raleway" , sans-serif;
   padding-left: 0;
 }
-#menu-footer-menu-1 li,
-#menu-solutions-menu li {
+#menu-products-menu li,
+#menu-solutions-menu li,
+#menu-header_menu-1 li {
   list-style-type: none;
 }
-#menu-footer-menu-1 li a,
-#menu-solutions-menu li a {
+#menu-products-menu li a,
+#menu-solutions-menu li a,
+#menu-header_menu-1 li a {
   color: var(--ahs-text-color);
   font-family: var(--ahs-font-family);
   font-size: 17px;
   line-height: 2;
+  transition: 0.3s ease;
 }
-#menu-footer-menu-1 li .sub-menu,
-#menu-solutions-menu li .sub-menu {
+#menu-products-menu li a:hover,
+#menu-solutions-menu li a:hover,
+#menu-header_menu-1 li a:hover {
+  color: var(--ahs-text-hover-color);
+}
+#menu-products-menu li .sub-menu,
+#menu-solutions-menu li .sub-menu,
+#menu-header_menu-1 li .sub-menu {
   padding-left: 0.7rem;
+}
+
+img.footerlogo {
+  width: 150px;
+  height: 150px;
+}
+@media screen and (max-width: 770px) {
+  img.footerlogo {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 :root,

@@ -57,7 +57,7 @@
         <header id="masthead" class="shadow-sm bg-white d-flex justify-content-between align-items-center min-vh-84" role="banner">
             <div class="container">
                 <nav class="navbar navbar-expand-lg p-0 m-0">
-                    <div class="container-fluid">
+                    <div class="container-fluid p-0">
                         <a href="<?php echo esc_url(home_url('/')); ?>" rel="home"">
                         <img src=" <?php echo get_template_directory_uri(); ?>/images/logo.png" alt="" />
                         </a>
@@ -131,4 +131,4 @@
                     });
             });
         </script>
-        <div id="content" class="p-sm-3 p-xsm-3 px-md-4 site-content">
+        <div id="content" class="p-lg-5 pb-lg-0 px-3 site-content">

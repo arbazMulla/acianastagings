@@ -14,9 +14,9 @@
 
 </div><!-- #content -->
 
-<footer id="colophon" class="site-footer py-sm-5 background-Blue" role="contentinfo">
+<footer class="site-footer py-sm-5 background-Blue background-fluid" role="contentinfo">
     <div class="container">
-        <div class="row">
+        <div class="row p-0">
             <div class="col-lg-3 col-md-6 col-sm-12">
                 <h5 class="text-white mb-4">Products</h5>
                 <?php
