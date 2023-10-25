@@ -85,50 +85,5 @@
                 </nav>
             </div>
         </header>
-        <script>
-            jQuery(document).ready(function() {
 
-                jQuery('.nav-toggle').on('click', function() {
-                    let navBarCol = jQuery(this).toggleClass('active');
-
-                    if (navBarCol.hasClass('active')) {
-                        // jQuery('.navbar-collapse').addClass('show fade-in-top');
-                        // jQuery('.navbar-collapse').removeClass('fade-out-top');
-                        jQuery('.navbar-collapse').fadeToggle();
-                    } else {
-                        jQuery('.navbar-collapse').fadeToggle();
-                        // jQuery('.navbar-collapse').removeClass('show fade-in-top');
-                    }
-                });
-
-                jQuery('#menu-header_menu li.dropdown a').addClass('d-flex align-items-center gap-2 pe-0')
-                jQuery('.dropdown-menu').addClass('p-0 ps-3 py-lg-3 py-sm-0 py-md-0 pe-1 position-absolute border-0 width-300 mt-xsm-2');
-                jQuery('.dropdown-menu-end a').addClass('d-flex align-items-center justify-content-between ')
-                jQuery('.dropdown-menu-end ul.sub-menu').addClass('sub-dropdown-menu');
-                jQuery('.dropdown-menu-end').removeClass('p-0 ps-3 py-3 py-lg-3 dropdown-menu position-absolute width-300');
-
-                jQuery('#menu-header_menu li.dropdown').mouseenter(
-                    function() {
-                        jQuery('.dropdown-menu-end').find('.dropdown-menu').addClass('hide');
-                        jQuery(this).find('.dropdown-menu').addClass('show');
-                    }).mouseleave(
-                    function() {
-                        jQuery(this).find('.dropdown-menu').removeClass('show');
-                    });
-
-                //for sub sub menu
-                jQuery('li.dropdown-menu-end').mouseenter(
-                    function() {
-                        jQuery(this).addClass('active');
-                        jQuery('.dropdown-menu-end').find('.dropdown-menu').removeClass('hide');
-                        jQuery(this).find('ul .sub-menu').addClass('show');
-                    }).mouseleave(
-                    function() {
-                        jQuery(this).removeClass('qwerty');
-                        jQuery(this).find('ul .sub-menu').removeClass('show');
-                        jQuery(this).find('a.dropdown-item').removeClass('active');
-                        jQuery(this).find('a.dropdown-item').removeClass('bisc');
-                    });
-            });
-        </script>
-        <div id="content" class="p-lg-5 pb-lg-0 px-3 site-content">
+        <div id="content" class="px-3 site-content">

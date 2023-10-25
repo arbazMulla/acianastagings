@@ -18,12 +18,12 @@ add_action('acf/init', 'ahs_acf_init');
 function ahs_acf_init()
 {
     if (function_exists('acf_register_block_type')) {
-        //Home- Banner Slider
+        //Home- Banner Slider Block
         acf_register_block(
             array(
                 'name'              => 'ahs-acf-banner-slider',
                 'category'          => 'ahs-acf-blocks',
-                'title'             => 'Banner Slider1',
+                'title'             => 'Banner Slider',
                 'description'       => 'A custom banner slider block',
                 'render_callback'   => 'ahs_acf_block_template',
                 'render_template'   => '/template-parts/blocks/banner-slider.php',
@@ -37,7 +37,8 @@ function ahs_acf_init()
                 },
             )
         );
-        //Home- CTA Section
+
+        //Home- CTA Block
         acf_register_block_type([
             'name'              => 'ahs-acf-get-in-touch',
             'category'          => 'ahs-acf-blocks',
@@ -48,11 +49,8 @@ function ahs_acf_init()
             'icon'              => 'layout',
             'mode'              => 'edit',
             'post_types'        => array('page'),
-            'enqueue_assets'    => function () {
-                wp_enqueue_style('custom-acf-block-styles', get_template_directory_uri() . '/template-parts/blocks/block.css', array(), true);
-            },
         ]);
-        //Home- Main Content
+        //Home- Main Content Block
         acf_register_block_type([
             'name'              => 'ahs-acf-main-content',
             'category'          => 'ahs-acf-blocks',
@@ -64,7 +62,7 @@ function ahs_acf_init()
             'mode'              => 'edit',
             'post_types'        => array('page'),
         ]);
-        //Home- Healthcare Solution
+        //Home- Healthcare Solution Block
         acf_register_block_type([
             'name'              => 'ahs-acf-healthcare-solutions',
             'category'          => 'ahs-acf-blocks',

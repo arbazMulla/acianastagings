@@ -26,19 +26,17 @@ $tb_main_text = get_field('tb_main_text');
 $tb_content = get_field('tb_content');
 if ($tb_main_text || $tb_content) {
 ?>
-    <div class="container-fluid">
-        <div class="text-banner background-fluid background-Secondary mt-5">
-            <div class="container">
-                <div class="row py-5 px-sm-0 px-4 mx-sm-0 ">
-                    <!-- p-3 p-lg-4 p-md-4  p-xs-0 -->
-                    <div class="col-xs-12 col-lg-6 p-0 pe-lg-5 pb-3 px-1 px-sm-0">
-                        <h3 class="fw-bolder"><?php echo $tb_main_text; ?></h3>
-                    </div><!-- .col -->
-                    <div class="col-xs-12 col-lg-6 p-0 ps-lg-5  px-1 px-sm-0">
-                        <?php echo $tb_content; ?>
-                    </div><!-- .col -->
-                </div><!-- .row -->
+
+    <div class="background-fluid background-Secondary mt-5 py-lg-5 py-md-4 ">
+        <div class="container px-4 px-sm-0">
+            <div class="row pt-5 pt-lg-0 px-3 px-sm-4">
+                <div class="col-xs-12 col-lg-6 p-0 pe-lg-5 pb-3 px-1 px-sm-0">
+                    <h3 class="fw-bolder"><?php echo $tb_main_text; ?></h3>
+                </div>
+                <div class="col-xs-12 col-lg-6 p-0 ps-lg-5  px-1 px-sm-0">
+                    <?php echo $tb_content; ?>
+                </div>
             </div>
-        </div><!-- text-banner. -->
+        </div>
     </div>
 <?php } ?>

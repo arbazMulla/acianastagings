@@ -1,4 +1,10 @@
-
+@import '_variables';
+body{
+    overflow-x: hidden !important;
+}
+a{
+    text-decoration: none !important;
+}
 .wp-block-uagb-container.uagb-block-5d8d90e5{
     @media screen and (max-width: 400px) {
         margin-top: 12px !important;
@@ -11,6 +17,13 @@
     margin-top: 0 !important;
     padding: 0 !important;
 }
+.banner-content-column {
+    h1,p{
+        @media (max-width: 768px){
+            width: 100% !important;
+        }
+    }
+}
 .healthcare_content{
     .content{
         background-color: var(--#{$prefix}white) !important;
@@ -22,6 +35,27 @@
         height: 70px;
     }
 }
-
+.getintouch_content{
+    h3{
+     font-size: 30px;
+     font-family: $font-family-exo;     
+    }
+    p{
+      font-size: 16px;
+      font-family: $font-family-base;
+      text-align: left;
+     }
+  }   
+  .interestedinctabtn{
+    a{
+      color: var(--#{$prefix}pinklight);
+      border-radius: 0.8px 6px !important;
+      box-shadow: 0px 18px 40px -10px #00000026;
+      font-family: $font-family-base;
+      font-size: 14px;      
+      line-height: 1;    
+      text-transform: uppercase; 
+  }
+}
 
 

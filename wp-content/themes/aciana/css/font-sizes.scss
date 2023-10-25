@@ -20,13 +20,11 @@ h3{
 }
 p
 {
-	color: $gray-600;
+	color: $gray-600 !important;
 	font-size: 1.2rem;
 	font-family: $font-family-base;  
 }
-.w-75{
-    width: 75% !important;
-}
+
 
 .p-xs-0{
 	@media screen and (max-width:400px){
