@@ -1,0 +1,49 @@
+// Banner Slider Styles
+
+.banner-content-column{ 
+    img{
+            width: 8rem; 
+            @media screen and (max-width: 778px){
+                 width: 120px;
+             }
+    }
+    h1{
+        color: var(--#{$prefix}darkblue);
+        line-height: 1.1;
+    }
+    p{
+        color: var(--#{$prefix}darkgreen) !important;
+    }
+    h1,p{
+        @media (max-width: 768px){
+            width: 100% !important;
+        }
+    }
+    
+}
+
+// Main Content
+.main-content {
+    h3{
+        color: var(--#{$prefix}darkblue);
+    }
+    p{
+        color: var(--#{$prefix}navyblue) !important;
+    }
+}
+
+// Product Content
+
+.wp-block-media-text__media img{
+    // width: 31.25rem !important;
+}
+.wp-block-media-text__content{
+    h2{
+        color:  var(--#{$prefix}darkblue) !important;
+    }
+}
+.product-content {
+    p{
+        color: var(--#{$prefix}navyblue) !important;
+    }
+}

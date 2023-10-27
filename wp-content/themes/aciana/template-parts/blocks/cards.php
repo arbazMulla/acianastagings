@@ -25,7 +25,7 @@ $contents = get_field('healthcare_solution_content');
 $main_heading = get_field('main_heading');
 ?>
 
-<div class="background-fluid background-Secondary py-lg-5 py-md-5 py-5  pb-5">
+<div class="background-fluid background-whiteBlue py-lg-5 py-md-5 py-5  pb-5">
     <div class="container pb-lg-5 py-md-4 py-sm-4">
         <h2 class="text-center pb-4 pb-sm-4"><?php echo $main_heading; ?></h2>
         <div class="row px-3 px-sm-0">
@@ -39,7 +39,7 @@ $main_heading = get_field('main_heading');
                     $title_links = $content['title_links'];
                 ?>
                     <div class="col-sm-6 col-lg-3 healthcare_content py-sm-3 py-lg-0 my-2 my-sm-0">
-                        <div class="content p-4 text-center h-100">
+                        <div class="content p-4 p-md-5 text-center h-100">
                             <img class="img-fluid mb-4" src=" <?php echo $healthcare_image; ?>" alt="">
                             <a href="<?php echo $title_links ?>">
                                 <h5 class="text-blue m-0 p-0"><?php echo $healthcare_title; ?></h5>

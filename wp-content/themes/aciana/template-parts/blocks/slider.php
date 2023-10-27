@@ -39,16 +39,17 @@ $slidersContent = get_field('slider_items');
                 $bannerimage = $slider['banner_image'];
             ?>
                 <div class="container">
-                    <div class="row d-flex slider-item">
+                    <div class="row d-flex slider-item align-items-center">
                         <div class="col-lg-5 banner-content-column p-0">
-                            <img class="img-fluid mb-3 img-responsive" src="<?php echo $subimage; ?>" alt="">
-                            <h1 class="mb-3 lh-1 w-75"> <?php echo $bannertitle; ?></h1>
-                            <p class="mb-4 w-75 h4"> <?php echo $bannerdescription; ?></p>
-                            <div>
-                                <a href="#" class="d-flex align-items-baseline btn btn-primary btn-icon btn-iconColor btn-width text-white text-uppercase fw-bold icon-arrow p-3 mb-3"><?php echo $ctabutton; ?></a>
+                            <img class="img-fluid mb-4 img-responsive" src="<?php echo $subimage; ?>" alt="">
+                            <h1 class="mb-4 w-75"> <?php echo $bannertitle; ?></h1>
+                            <p class="mb-4 w-75 h4 fw-normal"> <?php echo $bannerdescription; ?></p>
+                            <div class="mb-4">
+                                <!-- btn-icon btn-iconColor btn-width  -->
+                                <a href="#" class="d-flex btn btn-icon btn-iconColor  btn-primary btn-width text-white text-uppercase fw-bold icon-arrow py-3 py-lg-3 px-4 px-lg-4 "><?php echo $ctabutton; ?></a>
                             </div>
                             <div>
-                                <a href="#" class="text-blue fw-bold"><?php echo $ctalink; ?></a>
+                                <a href="#" class="btn btn-link fw-bold h6"><?php echo $ctalink; ?></a>
                             </div>
                         </div>
                         <div class="col-lg-7 d-flex justify-content-lg-end justify-content-md-start ps-0 pt-md-3 pt-lg-0 pe-0">
@@ -69,7 +70,7 @@ $slidersContent = get_field('slider_items');
 
         jQuery('#carousel-<?= $block['anchor'] ?? $block['id']; ?>').slick({
             dots: true,
-            autoplay: true,
+            // autoplay: true,
             autoplaySpeed: 6000,
             infinite: true,
             fade: true,

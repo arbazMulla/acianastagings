@@ -18,15 +18,14 @@ add_action('acf/init', 'ahs_acf_init');
 function ahs_acf_init()
 {
     if (function_exists('acf_register_block_type')) {
-        //Home- Banner Slider Block
+
         acf_register_block(
             array(
-                'name'              => 'ahs-acf-banner-slider',
+                'name'              => 'ahs-acf-slider',
                 'category'          => 'ahs-acf-blocks',
-                'title'             => 'Banner Slider',
-                'description'       => 'A custom banner slider block',
+                'title'             => 'Slider',
+                'description'       => 'A custom slider block',
                 'render_callback'   => 'ahs_acf_block_template',
-                'render_template'   => '/template-parts/blocks/banner-slider.php',
                 'icon'              => 'layout',
                 'mode'              => 'edit',
                 'post_types'        => array('page'),
@@ -38,7 +37,6 @@ function ahs_acf_init()
             )
         );
 
-        //Home- CTA Block
         acf_register_block_type([
             'name'              => 'ahs-acf-get-in-touch',
             'category'          => 'ahs-acf-blocks',
@@ -50,7 +48,7 @@ function ahs_acf_init()
             'mode'              => 'edit',
             'post_types'        => array('page'),
         ]);
-        //Home- Main Content Block
+
         acf_register_block_type([
             'name'              => 'ahs-acf-main-content',
             'category'          => 'ahs-acf-blocks',
@@ -62,17 +60,30 @@ function ahs_acf_init()
             'mode'              => 'edit',
             'post_types'        => array('page'),
         ]);
-        //Home- Healthcare Solution Block
+
         acf_register_block_type([
-            'name'              => 'ahs-acf-healthcare-solutions',
+            'name'              => 'ahs-acf-cards',
             'category'          => 'ahs-acf-blocks',
-            'title'             => 'Healthcare Solutions',
-            'description'       => 'A custom healthcare solution block',
+            'title'             => 'Cards',
+            'description'       => 'Cards/Tiles with icons and title',
             'render_callback'   => 'ahs_acf_block_template',
-            'render_template'   => '/template-parts/blocks/healthcare-solutions.php',
             'icon'              => 'layout',
             'mode'              => 'edit',
             'post_types'        => array('page'),
+        ]);
+
+        acf_register_block_type([
+            'name'              => 'ahs-acf-buttons',
+            'category'          => 'ahs-acf-blocks',
+            'title'             => 'Button Block',
+            'description'       => 'A button block',
+            'render_callback'   => 'ahs_acf_block_template',
+            'icon'              => 'layout',
+            'mode'              => 'edit',
+            'post_types'        => array('page'),
+            // 'enqueue_assets'    => function () {
+            //     wp_enqueue_script('button-js', get_template_directory_uri() . '/template-parts/blocks/js/button.js', array('jquery'), true);
+            // },
         ]);
     }
 }

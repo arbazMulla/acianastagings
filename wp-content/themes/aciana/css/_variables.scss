@@ -1,10 +1,11 @@
 
 $theme-primary: #ff3e3c;
-$theme-primary-300:  rgba(255, 217, 203, 1);
-$theme-primary-400:  rgba(255, 129, 127, 1) ;
+$theme-primary-300:  #ffd9cb;
+$theme-primary-400:  #ff817f;
 $theme-primary-dark: #CC3230FF;
 $theme-secondary: #daf2f5;
 $theme-secondary-dark: #26c7d9;
+
 $theme-pink-light: #FFD9CB;
 $theme-blue: #5787A7;
 $theme-black: #222222;
@@ -32,3 +33,9 @@ $layout-breakpoints: (
 	lg: 1024px,
     xl: 1400px,
 );
+$theme-whiteblue: #f4feff;
+$theme-darkblue: #17335D;
+$theme-lightblue: #D5EFF5;
+$theme-seagreen: #1D5D69FC;
+$theme-navyblue: #2C5287;
+$theme-darkgreen: #092124;

@@ -2,6 +2,11 @@
 body{
     overflow-x: hidden !important;
 }
+.custom-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: red;
+}
 a{
     text-decoration: none !important;
 }
@@ -16,13 +21,6 @@ a{
 .wp-block-uagb-container.uagb-block-7384c58c{
     margin-top: 0 !important;
     padding: 0 !important;
-}
-.banner-content-column {
-    h1,p{
-        @media (max-width: 768px){
-            width: 100% !important;
-        }
-    }
 }
 .healthcare_content{
     .content{
