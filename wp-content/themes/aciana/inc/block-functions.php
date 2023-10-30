@@ -38,30 +38,6 @@ function ahs_acf_init()
         );
 
         acf_register_block_type([
-            'name'              => 'ahs-acf-get-in-touch',
-            'category'          => 'ahs-acf-blocks',
-            'title'             => 'Get In Touch',
-            'description'       => 'A custom get in touch block',
-            'render_callback'   => 'ahs_acf_block_template',
-            'render_template'   => '/template-parts/blocks/get-in-touch.php',
-            'icon'              => 'layout',
-            'mode'              => 'edit',
-            'post_types'        => array('page'),
-        ]);
-
-        acf_register_block_type([
-            'name'              => 'ahs-acf-main-content',
-            'category'          => 'ahs-acf-blocks',
-            'title'             => 'Main Content',
-            'description'       => 'A custom main content block',
-            'render_callback'   => 'ahs_acf_block_template',
-            'render_template'   => '/template-parts/blocks/main-content.php',
-            'icon'              => 'layout',
-            'mode'              => 'edit',
-            'post_types'        => array('page'),
-        ]);
-
-        acf_register_block_type([
             'name'              => 'ahs-acf-cards',
             'category'          => 'ahs-acf-blocks',
             'title'             => 'Cards',
@@ -81,9 +57,7 @@ function ahs_acf_init()
             'icon'              => 'layout',
             'mode'              => 'edit',
             'post_types'        => array('page'),
-            // 'enqueue_assets'    => function () {
-            //     wp_enqueue_script('button-js', get_template_directory_uri() . '/template-parts/blocks/js/button.js', array('jquery'), true);
-            // },
+            
         ]);
     }
 }

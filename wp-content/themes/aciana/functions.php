@@ -129,7 +129,7 @@ function aciana_scripts()
 
 	// wp_enqueue_style('aciana', get_template_directory_uri() . '/assets/css/app.min.css');
 	// wp_enqueue_style('custom-css', get_template_directory_uri() . '/css/custom.css');
-	wp_enqueue_script('aciana', get_template_directory_uri() . '/assets/js/app.min.js', array('jquery'), '20130115', true);
+	// wp_enqueue_script('aciana', get_template_directory_uri() . '/assets/js/app.min.js', array('jquery'), '20130115', true);
 	wp_enqueue_script('custom-js', get_template_directory_uri() . '/js/custom.js', array('jquery'), '1.0', true);
 
 	if (is_singular() && comments_open() && get_option('thread_comments')) {

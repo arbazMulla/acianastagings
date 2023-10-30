@@ -22,7 +22,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500&family=Poppins:wght@500;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/heade.css' ?>">
+
 
 
     <!-- Google Tag Manager -->
@@ -58,7 +58,7 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg p-0 m-0">
                     <div class="container-fluid p-0">
-                        <a href="<?php echo esc_url(home_url('/')); ?>" rel="home"">
+                        <a class="logo" href="<?php echo esc_url(home_url('/')); ?>" rel="home"">
                         <img src=" <?php echo get_template_directory_uri(); ?>/images/logo.png" alt="" />
                         </a>
                         <div class="nav-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation" data-bs-no-animation="true">

@@ -1,6 +1,10 @@
 @import '_variables';
 body{
     overflow-x: hidden !important;
+    background: var(--#{$prefix}whiteblue);
+}
+.wp-block-columns{
+    margin-bottom: 0 !important;
 }
 .custom-container {
     border: 1px solid #ccc;
@@ -22,38 +26,7 @@ a{
     margin-top: 0 !important;
     padding: 0 !important;
 }
-.healthcare_content{
-    .content{
-        background-color: var(--#{$prefix}white) !important;
-        box-shadow: 0px 3.8520348072052px 42.37238311767578px 0px rgba(0, 0, 0, 0.1);
-        border-radius: 4.5px;  
-    }
-    img{
-        width: 70px;
-        height: 70px;
-    }
-}
-.getintouch_content{
-    h3{
-     font-size: 30px;
-     font-family: $font-family-exo;     
-    }
-    p{
-      font-size: 16px;
-      font-family: $font-family-base;
-      text-align: left;
-     }
-  }   
-  .interestedinctabtn{
-    a{
-      color: var(--#{$prefix}pinklight);
-      border-radius: 0.8px 6px !important;
-      box-shadow: 0px 18px 40px -10px #00000026;
-      font-family: $font-family-base;
-      font-size: 14px;      
-      line-height: 1;    
-      text-transform: uppercase; 
-  }
-}
+
+
 
 

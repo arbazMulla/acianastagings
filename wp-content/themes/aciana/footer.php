@@ -15,7 +15,7 @@
 </div><!-- #content -->
 
 <footer class="site-footer py-sm-5 background-Blue background-fluid" role="contentinfo">
-    <div class="container pt-lg-5 pt-5">
+    <div class="container pt-lg-5 pt-5 px-4 px-sm-2">
         <div class="row p-0">
             <div class="col-lg-3 col-md-4 col-6 mt-sm-4 mt-lg-0 mb-md-4 mb-lg-0 mb-4">
                 <h5 class="text-white mb-4 mb-sm-3 mb-md-4">Products</h5>

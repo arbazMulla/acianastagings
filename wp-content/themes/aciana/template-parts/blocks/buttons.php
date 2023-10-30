@@ -22,15 +22,36 @@ if (!empty($block['align'])) {
     $className .= ' ' . $block['align'];
 }
 
-$button_color = get_field('button_color_text');
-$button_text = get_field('button_text');
-// $button_color_preview = get_field('button_color__preview');
+$button_color = get_field('button_color');
+$button_style = get_field('button_style');
+$button_name = get_field('button_name');
+$button_url = get_field('button_url');
+$button_icon = get_field('button_icon');
 ?>
-<div class="<?= $uid; ?> <?= esc_attr($className); ?> py-lg-5 py-md-4 py-4">
+<div class="<?= $uid; ?> <?= esc_attr($className); ?>">
     <div class="button-block">
-        <a href="#" class="btn <?php echo esc_attr('btn-' . $button_color); ?>">
-            <?php echo esc_html($button_text); ?>
-        </a>
+        <?php
+
+        if ($button_style === 'link' && $button_icon === 'arrow') {
+        ?>
+            <a href="<?php echo esc_html($button_url); ?>" class="d-flex align-items-center fw-bold btn <?php echo esc_attr('btn-' . $button_color . ' ' . 'btn-' . $button_style . ' ' . 'btn-icon icon-' . $button_icon); ?>">
+                <?php echo esc_html($button_name); ?>
+            </a>
+        <?php
+        } elseif (!$button_style === 'link' || $button_icon === 'arrow') {
+        ?>
+            <a href="<?php echo esc_html($button_url); ?>" class="d-flex align-items-center fw-bold btn <?php echo esc_attr('btn-' . $button_color . ' btn-icon icon-' . $button_icon); ?>">
+                <?php echo esc_html($button_name); ?>
+            </a>
+        <?php
+        } else {
+        ?>
+            <a href="<?php echo esc_html($button_url); ?>" class="d-flex align-items-center fw-bold btn <?php echo esc_attr('btn-' . $button_color); ?>">
+                <?php echo esc_html($button_name); ?>
+            </a>
+        <?php
+        }
+        ?>
     </div>
 </div>
 
