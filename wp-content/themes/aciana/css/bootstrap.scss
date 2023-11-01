@@ -10,16 +10,14 @@ $primary-400: $theme-primary-400;
 $secondary: $theme-secondary;
 $blue: $theme-blue;
 $primary-dark: $theme-primary-dark;
-$secondary-dark: $theme-secondary-dark;
 $pinklight: $theme-pink-light;
 $black: $theme-black;
 $white: $theme-white;
 $light: $theme-light;
-
-$darkblue:  $theme-darkblue;
-$lightblue: $theme-lightblue;
-$seagreen:  $theme-seagreen;
-$navyblue:  $theme-navyblue;
+// $darkblue:  $theme-darkblue;
+// $lightblue: $theme-lightblue;
+// $seagreen:  $theme-seagreen;
+// $navyblue:  $theme-navyblue;
 $gray: $theme-gray;
 
 $font-family-base: $theme-fontRaleway;
@@ -39,15 +37,25 @@ $theme-colors: map-merge-multiple(
 		"primary-dark":   $theme-primary-dark,
         "primary-300":    $theme-primary-300,
         "primary-400":    $theme-primary-400,
-        "secondary-dark": $theme-secondary-dark,
-		"darkblue":       $theme-darkblue,
+        "darkblue":       $theme-darkblue,
 		"lightblue":      $theme-lightblue,
-		"seagreen": 	  $theme-seagreen,
-		"navyblue":       $theme-navyblue,
-		'darkgreen': 	  $theme-darkgreen,
+		// "seagreen": 	  $theme-seagreen,
+		// "navyblue":       $theme-navyblue,
+		// 'darkgreen': 	  $theme-darkgreen,
 		'whiteblue': 	  $theme-whiteblue,
 	),
+	
 	$grays
+);
+
+$theme-fonts: ();
+
+$theme-fonts: map-merge-multiple(
+  $theme-fonts,
+  (
+    'font-family-base': 'theme-fontRaleway',
+	'font-family-exo': 'theme-fontExo',
+  )
 );
 
 

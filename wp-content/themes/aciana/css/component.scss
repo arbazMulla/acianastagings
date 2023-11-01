@@ -8,7 +8,6 @@
              }
     }
     h1{
-        // color: var(--#{$prefix}darkblue);
         line-height: 1.1;
     }
     p{
@@ -21,6 +20,7 @@
     }
     
 }
+
 
 // Main Content
 .main-content {
@@ -36,11 +36,6 @@
     }    
 }
 
-// Product Content
-
-.wp-block-media-text__media img{
-    // width: 31.25rem !important;
-}
 .wp-block-media-text__content{
     h2{
         color:  var(--#{$prefix}secondary) !important;
@@ -53,8 +48,8 @@
         border-radius: 4.5px;  
     }
     img{
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
     }
 }
 .product-content {
@@ -68,10 +63,10 @@
         color: var(--#{$prefix}primary-400) !important;
     }
     h2{
-        font-family: $font-family-exo;     
+        font-family: $font-family-base;     
     }
     p{
-      font-size: 16px;
+      font-size: 18px;
       font-family: $font-family-base;
       text-align: left;
      }

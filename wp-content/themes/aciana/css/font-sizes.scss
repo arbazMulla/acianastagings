@@ -23,9 +23,10 @@ h6{
 }
 p
 {
-	color: $gray-600 !important;
+	// font-family: $font-family-base;  
+	color: var(--#{$prefix}gray) !important;
 	font-size: 1.2rem;
-	font-family: $font-family-base;  
+	line-height: 1.5;
 }
 
 

@@ -27,7 +27,7 @@ function ahs_acf_init()
                 'description'       => 'A custom slider block',
                 'render_callback'   => 'ahs_acf_block_template',
                 'icon'              => 'layout',
-                'mode'              => 'edit',
+                'mode'              => 'preview',
                 'post_types'        => array('page'),
                 'enqueue_assets'    => function () {
                     wp_enqueue_style('slick-theme', get_template_directory_uri() . '/slick/slick-theme.css', array(), true);
@@ -44,7 +44,7 @@ function ahs_acf_init()
             'description'       => 'Cards/Tiles with icons and title',
             'render_callback'   => 'ahs_acf_block_template',
             'icon'              => 'layout',
-            'mode'              => 'edit',
+            'mode'              => 'preview',
             'post_types'        => array('page'),
         ]);
 
@@ -52,13 +52,42 @@ function ahs_acf_init()
             'name'              => 'ahs-acf-buttons',
             'category'          => 'ahs-acf-blocks',
             'title'             => 'Button Block',
-            'description'       => 'A button block',
+            'description'       => 'A customizable button with options for text, link, and style',
             'render_callback'   => 'ahs_acf_block_template',
             'icon'              => 'layout',
             'mode'              => 'edit',
             'post_types'        => array('page'),
-            
+
         ]);
+
+        acf_register_block_type(array(
+            'name'              => 'ahs-acf-container-block',
+            'category'          => 'ahs-acf-blocks',
+            'title'             => 'Container Block',
+            'description'       => 'A block that allows you to add an inner block to a container block.',
+            'render_callback'   => 'ahs_acf_block_template',
+            'icon'              => 'layout',
+            'mode'              => 'preview',
+            'supports'          => array(
+                'align' => false,
+                "jsx"   => true
+            ),
+            'example'           => array(
+                'attributes' => array(
+                    'mode' => 'preview',
+                    'data' => array(
+                        'className' => 'acf-block-container'
+                    ),
+                    'template' => array(
+                        array('core/columns', array(), array(
+                            array('core/column', array(), array(
+                                array('ahs-acf-container-block'), // Your container block here
+                            )),
+                        )),
+                    ),
+                ),
+            ),
+        ));
     }
 }
 function ahs_acf_block_template($block)

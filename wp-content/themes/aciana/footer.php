@@ -90,12 +90,10 @@
             let navBarCol = jQuery(this).toggleClass('active');
 
             if (navBarCol.hasClass('active')) {
-                // jQuery('.navbar-collapse').addClass('show fade-in-top');
-                // jQuery('.navbar-collapse').removeClass('fade-out-top');
+
                 jQuery('.navbar-collapse').fadeToggle();
             } else {
                 jQuery('.navbar-collapse').fadeToggle();
-                // jQuery('.navbar-collapse').removeClass('show fade-in-top');
             }
         });
 

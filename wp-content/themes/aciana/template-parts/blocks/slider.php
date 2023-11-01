@@ -45,15 +45,14 @@ $slidersContent = get_field('slider_items');
                             <h1 class="mb-4 w-75"> <?php echo $bannertitle; ?></h1>
                             <p class="mb-4 w-75 h4 fw-normal"> <?php echo $bannerdescription; ?></p>
                             <div class="mb-4">
-                                <!-- btn-icon btn-iconColor btn-width  -->
-                                <a href="#" class="d-flex align-items-center btn btn-icon btn-iconColor  btn-primary btn-width text-white text-uppercase fw-bold icon-arrow py-3 py-lg-3 px-4 px-lg-4 "><?php echo $ctabutton; ?></a>
+                                <a href="#" class="d-flex align-items-center btn btn-icon btn-iconColor btn-primary btn-width text-white fw-bold icon-arrow py-3 py-lg-3 px-4 px-lg-4 "><?php echo $ctabutton; ?></a>
                             </div>
                             <div>
                                 <a href="#" class="btn btn-secondary btn-link fw-bold h6"><?php echo $ctalink; ?></a>
                             </div>
                         </div>
                         <div class="col-lg-7 d-flex justify-content-lg-end justify-content-md-start ps-0 pt-md-3 pt-lg-0 pe-0">
-                            <img class="img-fluid img-responsive" src="<?php echo $bannerimage; ?>" alt="">
+                            <img class="img-fluid img-responsive bannerimage" src="<?php echo $bannerimage; ?>" alt="">
                         </div>
                     </div>
                 </div>
@@ -70,11 +69,13 @@ $slidersContent = get_field('slider_items');
 
         jQuery('#carousel-<?= $block['anchor'] ?? $block['id']; ?>').slick({
             dots: true,
-            // autoplay: true,
-            autoplaySpeed: 6000,
+            autoplay: true,
+            autoplaySpeed: 4000,
             infinite: true,
-            fade: true,
+            // fade: true,
             arrows: false,
+            speed: 1000,
+            draggable: true,
         });
     });
 </script>

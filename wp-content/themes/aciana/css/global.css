@@ -1,16 +1,9 @@
 body {
   overflow-x: hidden !important;
-  background: var(--);
 }
 
 .wp-block-columns {
   margin-bottom: 0 !important;
-}
-
-.custom-container {
-  border: 1px solid #ccc;
-  padding: 20px;
-  background-color: red;
 }
 
 a {

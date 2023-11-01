@@ -75,7 +75,7 @@
                                 'container' => false,
                                 'menu_class' => '',
                                 'fallback_cb' => '__return_false',
-                                'items_wrap' => '<ul id="%1$s" class="navbar-nav align-items-xsm-baseline align-items-sm-start gap-lg-5 gap-sm-2 mt-sm-4 mt-xsm-2 mt-lg-0 py-xsm-4">%3$s</ul>',
+                                'items_wrap' => '<ul id="%1$s" class="navbar-nav align-items-xsm-baseline align-items-sm-start gap-lg-5 gap-sm-2 mt-lg-0 py-xsm-4">%3$s</ul>',
                                 'depth' => 3,
                                 'walker' => new bootstrap_5_wp_nav_menu_walker()
                             ));

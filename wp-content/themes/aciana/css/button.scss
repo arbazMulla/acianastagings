@@ -14,7 +14,7 @@
 	--#{$prefix}btn-font-size: 1rem;	
 	--#{$prefix}btn-border-radius: 5px 20px;
 	padding: 1rem 1.5rem !important;
-    
+    margin-bottom: 1rem;
 	position: relative;
 
 	.btn-check:focus + &,
@@ -70,10 +70,11 @@
 
 	&.btn-link {
 		--#{$prefix}btn-color: var(--#{$prefix}btn-bg) !important;		
-		background-color: var(--#{$prefix}white) !important;
+		background-color: transparent !important;
 		border: none;
 		box-shadow: var(--#{$prefix}btn-box-shadow);
 		padding: 0 !important;
+		margin-bottom: 0.5rem;
 
 		&:hover{
 			--#{$prefix}btn-color: var(--#{$prefix}btn-hover-bg) !important;			
@@ -94,19 +95,20 @@
 	--#{$prefix}btn-border-color: var(--#{$prefix}btn-bg);
 
 	--#{$prefix}btn-hover-color: var(--#{$prefix}btn-color);
-	--#{$prefix}btn-hover-bg: var(--#{$prefix}secondary-dark);
+	--#{$prefix}btn-hover-bg: var(--#{$prefix}btn-bg);
 	--#{$prefix}btn-hover-border-color: var(--#{$prefix}btn-hover-bg);
 
 	--#{$prefix}btn-active-color: var(--#{$prefix}btn-color);
-	--#{$prefix}btn-active-bg: var(--#{$prefix}secondary-dark);
+	--#{$prefix}btn-active-bg: var(--#{$prefix}btn-bg);
 	--#{$prefix}btn-active-border-color: var(--#{$prefix}btn-active-bg);
 
 	&.btn-link {
 		--#{$prefix}btn-color: var(--#{$prefix}btn-bg) !important;		
-		background-color: var(--#{$prefix}white) !important;
+		background-color: transparent !important;
 		border: none;
 		box-shadow: var(--#{$prefix}btn-box-shadow);
 		padding: 0 !important;
+		margin-bottom: 0.5rem;
 
 		&:hover{
 			--#{$prefix}btn-color: var(--#{$prefix}btn-hover-bg) !important;			
@@ -129,10 +131,11 @@
 
 	&.btn-link {
 		--#{$prefix}btn-color: var(--#{$prefix}primary) !important;		
-		background-color: none !important;
+		background-color: transparent !important;
 		border: none;
 		box-shadow: var(--#{$prefix}btn-box-shadow);
 		padding: 0 !important;
+		margin-bottom: 0.5rem;
 		
 		&:hover{
 			background-color: transparent !important;
@@ -242,9 +245,9 @@
 	background-color: rgba(255, 129, 127, 1) !important;
 }
 
-.text-blue{
-	color: $secondary-dark;	
-}
+// .text-blue{
+// 	color: $secondary-dark;	
+// }
 .text-primary-300 {
 	color: rgba(255, 129, 127, 1) !important;
 }
