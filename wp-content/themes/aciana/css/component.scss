@@ -9,13 +9,35 @@
     }
     h1{
         line-height: 1.1;
+
+        // @media (max-width:990px){
+        //     font-size: 2.066rem !important;
+        // }
+        @media (max-width:576px){
+            font-size: 2.5rem;
+            
+        }
     }
     p{
         color: var(--#{$prefix}gray) !important;
+        @media (max-width:990px){
+            font-size: 1.05rem!important;
+        }        
     }
     h1,p{
+        @media (max-width: 990px){            
+            margin-bottom: 30px !important;
+        }
         @media (max-width: 768px){
-            width: 100% !important;
+            width: 100% !important;            
+        }
+    }
+    a{
+        @media (max-width:990px){
+            font-size: 0.875rem !important;
+        }
+        @media (max-width: 768px){            
+            margin-bottom: 30px !important;
         }
     }
     
@@ -28,17 +50,35 @@
         @media (max-width: 991px){
             flex-basis: 100% !important;
         }
+
+        h2{
+            @media (max-width: 990px)
+            {
+                font-size: 24px;
+            }
+        }
     } 
     .description{
         @media (max-width: 991px){
             flex-basis: 100% !important;
         }
+        p{
+            
+            font-size: 18px;
+        }
     }    
 }
 
+// .is-stacked-on-mobile .wp-block-media-text__content{
+//     grid-column-gap: 40px !important;
+//     padding-right: 0 !important;
+//     padding-left: 0 !important;
+// }
+
 .wp-block-media-text__content{
     h2{
-        color:  var(--#{$prefix}secondary) !important;
+        color:  var(--#{$prefix}black) !important;
+        font-family: $font-family-exo;
     }
 }
 .card_content{
@@ -63,12 +103,20 @@
         color: var(--#{$prefix}primary-400) !important;
     }
     h2{
-        font-family: $font-family-base;     
+        font-family: $font-family-base;  
+        @media (max-width: 990px)
+        {
+            font-size: 30px;
+        }
     }
     p{
       font-size: 18px;
       font-family: $font-family-base;
       text-align: left;
+      @media (max-width: 990px)
+        {
+            font-size: 16px;
+        }
      }
 
      @media (max-width: 991px){

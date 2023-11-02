@@ -1,17 +1,1 @@
-.banner-content-column img {
-  width: 8rem;
-}
-@media screen and (max-width: 778px) {
-  .banner-content-column img {
-    width: 120px;
-  }
-}
-.banner-content-column h1 {
-  color: var();
-  line-height: 1.1;
-}
-@media (max-width: 768px) {
-  .banner-content-column h1, .banner-content-column p {
-    width: 100% !important;
-  }
-}/*# sourceMappingURL=component.css.map */
+/*# sourceMappingURL=component.css.map */

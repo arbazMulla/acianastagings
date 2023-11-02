@@ -3,6 +3,15 @@ body{
     overflow-x: hidden !important;
     
 }
+.container{
+    max-width: 1400px;
+    @media (min-width:1200px){
+        max-width: 1200px !important;
+    } 
+    @media (min-width:768px){
+        max-width: 900px;
+    }
+}
 .wp-block-columns{
     margin-bottom: 0 !important;
 }

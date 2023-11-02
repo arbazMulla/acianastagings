@@ -80,6 +80,12 @@
 			--#{$prefix}btn-color: var(--#{$prefix}btn-hover-bg) !important;			
 		}		
 	}	
+	&.btn-yes{
+		border-radius: var(--#{$prefix}btn-border-radius) !important;
+	}	
+	&.btn-no{
+		border-radius: 0.8px 6.83px 0.8px 6.83px !important;
+	}
 	
 	box-shadow: 0 6px 10px 0 rgba(255,62,60,.3);
 	border-radius: var(--#{$prefix}btn-border-radius) !important;	
@@ -114,6 +120,12 @@
 			--#{$prefix}btn-color: var(--#{$prefix}btn-hover-bg) !important;			
 		}		
 	}
+	&.yes{
+		border-radius: var(--#{$prefix}btn-border-radius) !important;
+	}	
+	&.no{
+		border-radius: 0.8px 6.83px 0.8px 6.83px !important;
+	}
 }
 		
 .btn-white {
@@ -140,6 +152,12 @@
 		&:hover{
 			background-color: transparent !important;
 		}
+	}
+	&.yes{
+		border-radius: var(--#{$prefix}btn-border-radius) !important;
+	}	
+	&.no{
+		border-radius: 0.8px 6.83px 0.8px 6.83px !important;
 	}
 	
 }
@@ -225,6 +243,7 @@
 }
 
 .background-fluid{
+	max-width: 100vw;
 	width: 100vw;
 	position: relative;
 	left: 50%;

@@ -25,10 +25,8 @@ if (!empty($block['align'])) {
 $inner_blocks = get_field('inner_blocks');
 ?>
 
-<div class="<?= $uid; ?> <?= esc_attr($className); ?> py-lg-5 py-md-4 py-4">
-    <div class="row">
-        <div class="col-12">
-            <InnerBlocks />
-        </div>
+<div class="<?= $uid; ?> <?= esc_attr($className); ?> ">
+    <div class="">
+        <InnerBlocks />
     </div>
 </div>

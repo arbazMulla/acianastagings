@@ -88,6 +88,17 @@ function ahs_acf_init()
                 ),
             ),
         ));
+
+        acf_register_block_type([
+            'name'              => 'ahs-acf-content',
+            'category'          => 'ahs-acf-blocks',
+            'title'             => 'Content Block',
+            'description'       => 'A custom main content section',
+            'render_callback'   => 'ahs_acf_block_template',
+            'icon'              => 'layout',
+            'mode'              => 'preview',
+            'post_types'        => array('page'),
+        ]);
     }
 }
 function ahs_acf_block_template($block)

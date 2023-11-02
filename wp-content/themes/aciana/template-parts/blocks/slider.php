@@ -24,7 +24,7 @@ if (!empty($block['align'])) {
 
 $slidersContent = get_field('slider_items');
 ?>
-<div class="<?= $uid; ?> <?= esc_attr($className); ?> py-lg-5 py-md-4 py-4">
+<div class="<?= $uid; ?> <?= esc_attr($className); ?> mt-lg-5 py-md-5 py-4">
     <?php
     if ($slidersContent) :
     ?>
@@ -40,18 +40,18 @@ $slidersContent = get_field('slider_items');
             ?>
                 <div class="container">
                     <div class="row d-flex slider-item align-items-center">
-                        <div class="col-lg-5 banner-content-column p-0">
+                        <div class="col-lg-5 col-md-10 col-8 banner-content-column p-0">
                             <img class="img-fluid mb-4 img-responsive" src="<?php echo $subimage; ?>" alt="">
                             <h1 class="mb-4 w-75"> <?php echo $bannertitle; ?></h1>
                             <p class="mb-4 w-75 h4 fw-normal"> <?php echo $bannerdescription; ?></p>
                             <div class="mb-4">
-                                <a href="#" class="d-flex align-items-center btn btn-icon btn-iconColor btn-primary btn-width text-white fw-bold icon-arrow py-3 py-lg-3 px-4 px-lg-4 "><?php echo $ctabutton; ?></a>
+                                <a href="#" class="d-flex align-items-center btn btn-icon btn-iconColor btn-primary btn-width text-white fw-bold icon-arrow py-3 py-lg-3 px-4 px-lg-4"><?php echo $ctabutton; ?></a>
                             </div>
                             <div>
-                                <a href="#" class="btn btn-secondary btn-link fw-bold h6"><?php echo $ctalink; ?></a>
+                                <a href="#" class="btn btn-secondary btn-link fw-bold h6 mt-lg-1"><?php echo $ctalink; ?></a>
                             </div>
                         </div>
-                        <div class="col-lg-7 d-flex justify-content-lg-end justify-content-md-start ps-0 pt-md-3 pt-lg-0 pe-0">
+                        <div class="col-lg-7 col-md-8 col-10 d-flex justify-content-lg-end justify-content-md-start ps-0 pt-md-3 pt-lg-0 pe-0">
                             <img class="img-fluid img-responsive bannerimage" src="<?php echo $bannerimage; ?>" alt="">
                         </div>
                     </div>
@@ -69,7 +69,7 @@ $slidersContent = get_field('slider_items');
 
         jQuery('#carousel-<?= $block['anchor'] ?? $block['id']; ?>').slick({
             dots: true,
-            autoplay: true,
+            // autoplay: true,
             autoplaySpeed: 4000,
             infinite: true,
             // fade: true,

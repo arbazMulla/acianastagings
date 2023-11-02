@@ -10832,6 +10832,12 @@ textarea.form-control-lg {
 .btn-primary.btn-link:hover {
   --ahs-btn-color: var(--ahs-btn-hover-bg) !important;
 }
+.btn-primary.btn-yes {
+  border-radius: var(--ahs-btn-border-radius) !important;
+}
+.btn-primary.btn-no {
+  border-radius: 0.8px 6.83px 0.8px 6.83px !important;
+}
 .btn-primary:hover {
   background-color: var(--ahs-btn-hover-bg);
 }
@@ -10858,6 +10864,12 @@ textarea.form-control-lg {
 .btn-secondary.btn-link:hover {
   --ahs-btn-color: var(--ahs-btn-hover-bg) !important;
 }
+.btn-secondary.yes {
+  border-radius: var(--ahs-btn-border-radius) !important;
+}
+.btn-secondary.no {
+  border-radius: 0.8px 6.83px 0.8px 6.83px !important;
+}
 
 .btn-white {
   --ahs-btn-color: var(--ahs-primary);
@@ -10880,6 +10892,12 @@ textarea.form-control-lg {
 }
 .btn-white.btn-link:hover {
   background-color: transparent !important;
+}
+.btn-white.yes {
+  border-radius: var(--ahs-btn-border-radius) !important;
+}
+.btn-white.no {
+  border-radius: 0.8px 6.83px 0.8px 6.83px !important;
 }
 
 .btn-iconColor {
@@ -10921,6 +10939,7 @@ textarea.form-control-lg {
 }
 
 .background-fluid {
+  max-width: 100vw;
   width: 100vw;
   position: relative;
   left: 50%;
@@ -10956,14 +10975,22 @@ body {
   overflow-x: hidden !important;
 }
 
-.wp-block-columns {
-  margin-bottom: 0 !important;
+.container {
+  max-width: 1400px;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px !important;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 900px;
+  }
 }
 
-.custom-container {
-  border: 1px solid #ccc;
-  padding: 20px;
-  background-color: red;
+.wp-block-columns {
+  margin-bottom: 0 !important;
 }
 
 a {
@@ -10989,6 +11016,11 @@ a {
 @media screen and (max-width: 400px) {
   a {
     font-size: 0.8rem !important;
+  }
+}
+@media screen and (max-width: 778px) {
+  a {
+    font-size: 0.875rem !important;
   }
 }
 
@@ -11204,7 +11236,6 @@ nav div a.logo img {
   #menu-header_menu {
     overflow-y: auto;
     max-height: 500px;
-    background: var(--ahs-whiteblue);
   }
 }
 #menu-header_menu li a {
@@ -11224,9 +11255,6 @@ nav div a.logo img {
   color: var(--ahs-primary);
   cursor: pointer;
 }
-#menu-header_menu li:hover a {
-  color: var(--ahs-primary); /* Change color when list item is hovered */
-}
 #menu-header_menu li:hover ~ li a {
   color: gray; /* Change color of other list items */
 }
@@ -11235,12 +11263,12 @@ nav div a.logo img {
 }
 @media (max-width: 994px) {
   #menu-header_menu li ul.dropdown-menu {
-    background: var(--ahs-whiteblue);
     position: static !important;
     display: block;
   }
 }
 #menu-header_menu li ul.dropdown-menu li a {
+  color: var(--ahs-darkblue);
   font-size: 17px !important;
   line-height: 2;
   transition: 0.3s ease;
@@ -11355,12 +11383,37 @@ img.footerlogo {
 .banner-content-column h1, .banner-content-column .h1 {
   line-height: 1.1;
 }
+@media (max-width: 576px) {
+  .banner-content-column h1, .banner-content-column .h1 {
+    font-size: 2.5rem;
+  }
+}
 .banner-content-column p {
   color: var(--ahs-gray) !important;
+}
+@media (max-width: 990px) {
+  .banner-content-column p {
+    font-size: 1.05rem !important;
+  }
+}
+@media (max-width: 990px) {
+  .banner-content-column h1, .banner-content-column .h1, .banner-content-column p {
+    margin-bottom: 30px !important;
+  }
 }
 @media (max-width: 768px) {
   .banner-content-column h1, .banner-content-column .h1, .banner-content-column p {
     width: 100% !important;
+  }
+}
+@media (max-width: 990px) {
+  .banner-content-column a {
+    font-size: 0.875rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .banner-content-column a {
+    margin-bottom: 30px !important;
   }
 }
 
@@ -11369,14 +11422,31 @@ img.footerlogo {
     flex-basis: 100% !important;
   }
 }
+@media (max-width: 990px) {
+  .main-content .heading_col h2, .main-content .heading_col .h2 {
+    font-size: 24px;
+  }
+}
 @media (max-width: 991px) {
   .main-content .description {
     flex-basis: 100% !important;
   }
 }
+.main-content .description p {
+  font-size: 18px;
+}
+
+.is-stacked-on-mobile .wp-block-media-text__content {
+  padding-right: 0 !important;
+}
+
+.has-media-on-the-right .is-stacked-on-mobile .wp-block-media-text__content {
+  padding-left: 0 !important;
+}
 
 .wp-block-media-text__content h2, .wp-block-media-text__content .h2 {
-  color: var(--ahs-secondary) !important;
+  color: var(--ahs-black) !important;
+  font-family: "Exo", sans-serif;
 }
 
 .card_content .content {
@@ -11399,10 +11469,20 @@ img.footerlogo {
 .getintouch_content h2, .getintouch_content .h2 {
   font-family: "Raleway", sans-serif;
 }
+@media (max-width: 990px) {
+  .getintouch_content h2, .getintouch_content .h2 {
+    font-size: 30px;
+  }
+}
 .getintouch_content p {
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   text-align: left;
+}
+@media (max-width: 990px) {
+  .getintouch_content p {
+    font-size: 16px;
+  }
 }
 @media (max-width: 991px) {
   .getintouch_content {
