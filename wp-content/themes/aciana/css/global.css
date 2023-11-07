@@ -38,4 +38,14 @@ a {
 .wp-block-uagb-container.uagb-block-7384c58c {
   margin-top: 0 !important;
   padding: 0 !important;
+}
+
+.main-title {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+@media (max-width: 900px) {
+  .main-title {
+    font-size: 2rem;
+  }
 }/*# sourceMappingURL=global.css.map */

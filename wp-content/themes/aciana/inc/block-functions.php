@@ -24,7 +24,7 @@ function ahs_acf_init()
                 'name'              => 'ahs-acf-slider',
                 'category'          => 'ahs-acf-blocks',
                 'title'             => 'Slider',
-                'description'       => 'A custom slider block',
+                'description'       => 'Create a dynamic slider block to showcase images or content in a sliding carousel format.',
                 'render_callback'   => 'ahs_acf_block_template',
                 'icon'              => 'layout',
                 'mode'              => 'preview',
@@ -51,7 +51,7 @@ function ahs_acf_init()
         acf_register_block_type([
             'name'              => 'ahs-acf-buttons',
             'category'          => 'ahs-acf-blocks',
-            'title'             => 'Button Block',
+            'title'             => 'Button',
             'description'       => 'A customizable button with options for text, link, and style',
             'render_callback'   => 'ahs_acf_block_template',
             'icon'              => 'layout',
@@ -63,7 +63,7 @@ function ahs_acf_init()
         acf_register_block_type(array(
             'name'              => 'ahs-acf-container-block',
             'category'          => 'ahs-acf-blocks',
-            'title'             => 'Container Block',
+            'title'             => 'Container',
             'description'       => 'A block that allows you to add an inner block to a container block.',
             'render_callback'   => 'ahs_acf_block_template',
             'icon'              => 'layout',
@@ -72,28 +72,55 @@ function ahs_acf_init()
                 'align' => false,
                 "jsx"   => true
             ),
-            'example'           => array(
-                'attributes' => array(
-                    'mode' => 'preview',
-                    'data' => array(
-                        'className' => 'acf-block-container'
-                    ),
-                    'template' => array(
-                        array('core/columns', array(), array(
-                            array('core/column', array(), array(
-                                array('ahs-acf-container-block'), // Your container block here
-                            )),
-                        )),
-                    ),
-                ),
-            ),
+            // 'example'           => array(
+            //     'attributes' => array(
+            //         'mode' => 'preview',
+            //         'data' => array(
+            //             'className' => 'acf-block-container'
+            //         ),
+            //         'template' => array(
+            //             array('core/columns', array(), array(
+            //                 array('core/column', array(), array(
+            //                     array('ahs-acf-container-block'), // Your container block here
+            //                 )),
+            //             )),
+            //         ),
+            //     ),
+            // ),
         ));
 
         acf_register_block_type([
-            'name'              => 'ahs-acf-content',
+            'name'              => 'ahs-acf-item-list',
             'category'          => 'ahs-acf-blocks',
-            'title'             => 'Content Block',
-            'description'       => 'A custom main content section',
+            'title'             => 'Item list',
+            'description'       => 'Create a list of items',
+            'render_template'   => '/template-parts/blocks/item-list.php',
+            'render_callback'   => 'ahs_acf_block_template',
+            'icon'              => 'layout',
+            'mode'              => 'preview',
+            'post_types'        => array('page'),
+        ]);
+
+        acf_register_block_type([
+            'name'              => 'ahs-acf-counter',
+            'category'          => 'ahs-acf-blocks',
+            'title'             => 'Counter/Statistics',
+            'description'       => 'Display a dynamic counter',
+            'render_callback'   => 'ahs_acf_block_template',
+            'icon'              => 'layout',
+            'mode'              => 'preview',
+            'post_types'        => array('page'),
+            'enqueue_assets'    => function () {
+                wp_enqueue_script('counter-js', get_template_directory_uri() . '/js/jquery.counterup.min.js', array('jquery'), true);
+                wp_enqueue_script('waypoint-js', 'http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js', array(), true);
+            },
+        ]);
+
+        acf_register_block_type([
+            'name'              => 'ahs-acf-accordians',
+            'category'          => 'ahs-acf-blocks',
+            'title'             => 'Accordians',
+            'description'       => 'Organize and display content with an accordion-style interface',
             'render_callback'   => 'ahs_acf_block_template',
             'icon'              => 'layout',
             'mode'              => 'preview',

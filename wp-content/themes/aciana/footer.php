@@ -15,9 +15,9 @@
 </div><!-- #content -->
 
 <footer class="site-footer py-sm-5 background-Blue background-fluid" role="contentinfo">
-    <div class="container pt-lg-5 pt-5 px-4 px-sm-2">
+    <div class="container pt-lg-5 pt-5 pb-5 pb-sm-0 px-4">
         <div class="row p-0">
-            <div class="col-lg-3 col-md-4 col-6 mt-sm-4 mt-lg-0 mb-md-4 mb-lg-0 mb-4">
+            <div class="col-lg-3 col-md-4 col-6 mt-sm-4 mt-lg-0 mb-md-4 mb-lg-0 mb-4 ps-md-0">
                 <h5 class="text-white mb-4 mb-sm-3 mb-md-4">Products</h5>
                 <?php
                 wp_nav_menu(array(
@@ -50,12 +50,12 @@
                 ?>
 
             </div>
-            <div class="col-lg-4 col-md-4 col-6 d-flex justify-content-sm-start justify-content-lg-end mt-sm-4 mt-lg-0  mb-4">
+            <div class="col-lg-4 col-md-4 col-6 d-flex justify-content-sm-start justify-content-lg-end mt-sm-4 mt-lg-0 mb-4 pe-md-0">
                 <img class=" img-responsive img-fluid footerlogo" src="<?php echo get_template_directory_uri() . '/images/footerlogo.png' ?>" alt="">
             </div>
         </div>
         <div class="row mt-4 mt-sm-5">
-            <div class="col-lg-6 col-md-3 d-flex align-items-start align-items-md-start justify-content-start gap-2 flex-md-row mb-3 mb-sm-0">
+            <div class="col-lg-6 col-md-3 d-flex align-items-start align-items-md-start justify-content-start gap-2 flex-md-row mb-3 mb-sm-0 ps-md-0">
                 <?php
                 $icons = get_field('social_media_icons', 'option');
                 if ($icons) :
@@ -71,7 +71,7 @@
                 endif;
                 ?>
             </div>
-            <div class="col-lg-6 col-md-9  d-flex align-items-center align-items-sm-center justify-content-md-end mt-sm-3 mt-md-0 copyright ">
+            <div class="col-lg-6 col-md-9  d-flex align-items-center align-items-sm-center justify-content-md-end mt-sm-3 mt-md-0 copyright pe-md-0">
                 <?php printmeta('footer_message', '<p class="text-white m-0 p-0">%s</p>', '', 'option');
                 ?>
             </div>

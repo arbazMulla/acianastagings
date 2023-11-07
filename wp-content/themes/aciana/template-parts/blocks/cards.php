@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Block Name: Healthcare Solutions
+ * Block Name: Cards
  *
  * This is the template for a custom block created with Advanced Custom Fields (ACF).
  *

@@ -63,54 +63,60 @@
     $("html").toggleClass("nav-open");
     // console.log(e);
   });
-  $(".animate-it").addClass("animate-hidden").viewportChecker({
-    classToAdd: "animate-visible animated fadeInUp", // Class to add to the elements when they are visible
-    offset: 100,
-  });
-  $(".open-demo-popup").magnificPopup({
-    type: "inline",
-    midClick: true,
-  });
-  $(".solution-carousel").slick({
-    dots: false,
-    infinite: true,
-    autoplay: false,
-    speed: 500,
-    arrows: true,
-    slidesToShow: 4,
-    slidesToScroll: 4,
-    prevArrow:
-      '<span class="slick-arrow slick-prev"><i class="icon-angle-left"></i></span>',
-    nextArrow:
-      '<span class="slick-arrow slick-next"><i class="icon-angle-right"></i></span>',
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-        },
-      },
-      {
-        breakpoint: 500,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
-    ],
-  });
+  // $(".animate-it").addClass("animate-hidden").viewportChecker({
+  //   classToAdd: "animate-visible animated fadeInUp", // Class to add to the elements when they are visible
+  //   offset: 100,
+  // });
+  // $(".open-demo-popup").magnificPopup({
+  //   type: "inline",
+  //   midClick: true,
+  // });
+  // $(".solution-carousel").slick({
+  //   dots: false,
+  //   infinite: true,
+  //   autoplay: false,
+  //   speed: 500,
+  //   arrows: true,
+  //   slidesToShow: 4,
+  //   slidesToScroll: 4,
+  //   prevArrow:
+  //     '<span class="slick-arrow slick-prev"><i class="icon-angle-left"></i></span>',
+  //   nextArrow:
+  //     '<span class="slick-arrow slick-next"><i class="icon-angle-right"></i></span>',
+  //   responsive: [
+  //     {
+  //       breakpoint: 1024,
+  //       settings: {
+  //         slidesToShow: 3,
+  //         slidesToScroll: 3,
+  //         infinite: true,
+  //         dots: true,
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 768,
+  //       settings: {
+  //         slidesToShow: 2,
+  //         slidesToScroll: 2,
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 500,
+  //       settings: {
+  //         slidesToShow: 1,
+  //         slidesToScroll: 1,
+  //       },
+  //     },
+  //     // You can unslick at a given breakpoint now by adding:
+  //     // settings: "unslick"
+  //     // instead of a settings object
+  //   ],
+  // });
+
+  // Slider Component
+  
+
+
 })(jQuery);
 
+  
