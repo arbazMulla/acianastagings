@@ -22,12 +22,11 @@ if (!empty($block['align'])) {
     $className .= ' ' . $block['align'];
 }
 $contents = get_field('healthcare_solution_content');
-$main_heading = get_field('main_heading');
+
 ?>
 <div class="<?= $uid; ?> <?= esc_attr($className); ?>">
-    <div class="background-fluid py-lg-5 py-md-5 py-5 pb-5 mb-md-5 mb-4">
-        <div class="container pb-lg-5 py-md-4 py-sm-4">
-            <h2 class="text-center pb-2 pb-sm-4"><?php echo $main_heading; ?></h2>
+    <div class="py-5 pb-5 mb-4">
+        <div class="container pb-lg-5">
             <div class="row px-3 px-sm-0">
                 <?php
                 if ($contents) :
@@ -38,7 +37,7 @@ $main_heading = get_field('main_heading');
                         $healthcare_title = $content['healthcare_title'];
                         $title_links = $content['title_links'];
                     ?>
-                        <div class="col-sm-6 col-lg-3 card_content py-sm-3 py-lg-0 my-2 my-sm-0 mb-lg-4">
+                        <div class=" card_content col-sm-6 col-lg-3 py-sm-3 py-lg-0 my-2 my-sm-0 mb-lg-4">
                             <div class="content p-4 p-md-5 text-center h-100">
                                 <img class="img-fluid mb-5" src=" <?php echo $healthcare_image; ?>" alt="">
                                 <a href="<?php echo $title_links ?>">

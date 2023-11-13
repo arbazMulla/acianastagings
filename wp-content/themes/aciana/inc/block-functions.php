@@ -72,21 +72,6 @@ function ahs_acf_init()
                 'align' => false,
                 "jsx"   => true
             ),
-            // 'example'           => array(
-            //     'attributes' => array(
-            //         'mode' => 'preview',
-            //         'data' => array(
-            //             'className' => 'acf-block-container'
-            //         ),
-            //         'template' => array(
-            //             array('core/columns', array(), array(
-            //                 array('core/column', array(), array(
-            //                     array('ahs-acf-container-block'), // Your container block here
-            //                 )),
-            //             )),
-            //         ),
-            //     ),
-            // ),
         ));
 
         acf_register_block_type([
@@ -94,7 +79,17 @@ function ahs_acf_init()
             'category'          => 'ahs-acf-blocks',
             'title'             => 'Item list',
             'description'       => 'Create a list of items',
-            'render_template'   => '/template-parts/blocks/item-list.php',
+            'render_callback'   => 'ahs_acf_block_template',
+            'icon'              => 'layout',
+            'mode'              => 'preview',
+            'post_types'        => array('page'),
+        ]);
+
+        acf_register_block_type([
+            'name'              => 'ahs-acf-icon-box',
+            'category'          => 'ahs-acf-blocks',
+            'title'             => 'Icon Box',
+            'description'       => 'Display content with an icon in a stylish box',
             'render_callback'   => 'ahs_acf_block_template',
             'icon'              => 'layout',
             'mode'              => 'preview',
@@ -111,8 +106,9 @@ function ahs_acf_init()
             'mode'              => 'preview',
             'post_types'        => array('page'),
             'enqueue_assets'    => function () {
-                wp_enqueue_script('counter-js', get_template_directory_uri() . '/js/jquery.counterup.min.js', array('jquery'), true);
-                wp_enqueue_script('waypoint-js', 'http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js', array(), true);
+
+                wp_enqueue_script('waypoint', 'https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js', array('jquery'), true);
+                wp_enqueue_script('counter', 'https://cdn.jsdelivr.net/jquery.counterup/1.0/jquery.counterup.min.js', array('jquery'), true);
             },
         ]);
 

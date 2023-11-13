@@ -140,15 +140,29 @@
 .card_content{
     .content{
         background-color: var(--#{$prefix}white) !important;
-        box-shadow: 0px 3.8520348072052px 42.37238311767578px 0px rgba(0, 0, 0, 0.1);
-        border-radius: 4.5px;  
+        box-shadow: 0px 3.8520348072px 42.3723831177px 0px rgba(0, 0, 0, 0.06);
+        border-radius: 4.5px; 
+        transition: 0.5s all ease;
+        
+        &:hover{
+            cursor:pointer;
+            box-shadow: 0px 3.8520348072052px 42.37238311767578px 0px rgba(0, 0, 0, 0.1);
+
+        }
     }
     img{
         width: 80px;
         height: 80px;
     }
 }
-
+//Icon Box
+.icon_content
+{
+    border-radius: 10px;
+    img{
+        width: 35px;
+    }   
+}
 //CTA Component
 .getintouch_content{
     h2,p{
@@ -176,61 +190,56 @@
     }
     
 }   
-//   .interestedinctabtn{
-//     a{
-//       color: var(--#{$prefix}pinklight);
-//       border-radius: 0.8px 6px !important;
-//       box-shadow: 0px 18px 40px -10px #00000026;
-//       font-family: $font-family-base;
-//       font-size: 14px;      
-//       line-height: 1;    
-//       text-transform: uppercase; 
-//   }  
-// }
 
-//Factsheet Component
-.factsheet{
-    
-    .facesheet-counter{
-        @media(min-width: 990px){
-            flex-basis: 48%;
-        }
-        @media(max-width: 990px){
-            flex-basis: 48%;
-        }
-        @media(max-width: 880px){
-            flex-basis: 47%;
-        }
-        @media(max-width: 567px){
-            flex-basis: 100%;
-        }
-        .parent-counterup{
-            .child-counterup{
-                color: var(--#{$prefix}primary);
-                font-size: 2.7rem;
-                font-family: $font-family-exo;
-        
-                @media(max-width:990px){
-                    font-size: 2rem;
-                }
-            }    
-        }
-        .content{
-            h5{
-                font-family: $font-family-exo;
-                @media(max-width: 990px){
-                    font-size: 1rem;
-                }
+//Counter Component
+.parent_counter{
+    @media (max-width:990px){
+        flex-direction: column-reverse;
+    }
+    .factsheet{
+         
+        .facesheet-counter{
+            @media(min-width: 990px){
+                // flex-basis: 48%;
             }
-            .factsheet_description{
-                p{
-                    font-size: 1rem !important;
-                    font-weight: 500;
+            @media(max-width: 990px){
+                // flex-basis: 48%;
+            }
+            @media(max-width: 880px){
+                flex-basis: 47%;
+            }
+            @media(max-width: 567px){
+                flex-basis: 100%;
+            }
+            .parent-counterup{
+                .child-counterup{
+                    color: var(--#{$prefix}primary);
+                    font-size: 2.7rem;
+                    font-family: $font-family-exo;
+            
+                    @media(max-width:990px){
+                        font-size: 2rem;
+                    }
+                }    
+            }
+            .content{
+                h5{
+                    font-family: $font-family-exo;
+                    @media(max-width: 990px){
+                        font-size: 1rem;
+                    }
                 }
-             }
+                .factsheet_description{
+                    p{
+                        font-size: 1rem !important;
+                        font-weight: 500;
+                    }
+                 }
+            }
         }
     }
 }
+
 
 //Accordian Component
 
