@@ -39,16 +39,17 @@ $tabs_carousal = get_field('tabs_carousal');
     }
 
     /* Set initial opacity for all slides and images */
-    .slick-slide img {
+    /* .slick-slide img {
         opacity: 0;
         transition: opacity 0.5s ease;
         /* Adjust the transition duration and easing function as needed */
-    }
+    /* } */
+
 
     /* Set opacity for the active slide's image */
-    .slick-slide.slick-current img {
+    /* .slick-slide.slick-current img {
         opacity: 1;
-    }
+    } */
 
     /* Set opacity for the active slide */
     .slick-slide.slick-current {
@@ -84,8 +85,8 @@ $tabs_carousal = get_field('tabs_carousal');
         /* Color for the active slide */
     }
 
-    .slick-slider>.slick-list .draggable {
-        height: 600px !important;
+    .slick-list .draggable {
+        /* height: 600px !important; */
     }
 </style>
 
@@ -116,7 +117,8 @@ $tabs_carousal = get_field('tabs_carousal');
                         </div>
                         <div class="col-6  d-flex align-items-center">
                             <div class="image-column">
-                                <img class="img-responsive img-fluid" src="<?php echo $main_image; ?>" alt="">
+                                <img class="img-responsive img-fluid" src="<?php #echo $main_image;
+                                                                            ?>" alt="">
                             </div>
                         </div>
                     </div>
@@ -130,44 +132,27 @@ $tabs_carousal = get_field('tabs_carousal');
 
 <script>
     jQuery(document).ready(function($) {
-        var draggableList = $('.slick--slider > .slick-list.draggable');
-        draggableList.css('height', '800px');
-        jQuery('.slick-slider').on('afterChange', function(event, slick, currentSlide) {
-            // Reset the display property for all .contents elements
-            jQuery('.slick-slide .contents').css('display', 'none');
-
-            // Show .contents in the active slide
-            jQuery('.slick-slide.slick-current .contents').css('display', 'flex'); // or any other display property
-
-            // Show additional .contents in the other two slides when slidesToShow is set to 3
-            if (currentSlide === 0) {
-                jQuery('.slick-slide[data-slick-index="0"] .contents').css('display', 'flex');
-                jQuery('.slick-slide[data-slick-index="2"] .contents').css('display', 'flex');
-            } else if (currentSlide === 1) {
-
-                jQuery('.slick-slide[data-slick-index="0"] .contents').css('display', 'flex');
-                jQuery('.slick-slide[data-slick-index="2"] .contents').css('display', 'flex');
-
-
-            } else if (currentSlide === 2) {
-                jQuery('.slick-slide[data-slick-index="1"] .contents').css('display', 'flex');
-            }
-
-            console.log('Current slide:', currentSlide);
-        });
 
         jQuery('.slick-slider').slick({
-            slidesToShow: 3,
-            infinite: false,
-            slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2000,
             vertical: true,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
             arrows: false,
-            dots: false,
-            pauseOnHover: false,
-
+            draggable: false,
+            responsive: [{
+                breakpoint: 767,
+                settings: {
+                    vertical: false,
+                    fade: true,
+                }
+            }, ]
         });
+
+
+
+
 
 
     });
