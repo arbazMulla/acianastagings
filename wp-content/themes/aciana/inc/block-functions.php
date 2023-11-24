@@ -122,6 +122,29 @@ function ahs_acf_init()
             'mode'              => 'preview',
             'post_types'        => array('page'),
         ]);
+
+        // Tab Carousal
+        acf_register_block(
+            array(
+                'name' => 'ahs-acf-tab-carousal',
+                'category' => 'ahs-acf-blocks',
+                'title' => 'Tabs Carousal',
+                'description' => 'Create a tabs slider',
+                'render_callback'   => 'ahs_acf_block_template',
+                'icon' => 'layout',
+                'mode' => 'preview',
+                'post_types'        => array('page'),
+                'allowed_blocks' => array('buttons'),
+                'supports' => array(
+                    'jsx' => true,
+                ),
+                'enqueue_assets' => function () {
+                    wp_enqueue_style('slick', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css', array(), '1.8.1');
+                    wp_enqueue_style('slick-theme', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css', array(), '1.8.1');
+                    wp_enqueue_script('slick', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js', array('jquery'), '1.8.1', true);
+                }
+            )
+        );
     }
 }
 function ahs_acf_block_template($block)

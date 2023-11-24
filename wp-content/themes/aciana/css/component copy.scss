@@ -137,7 +137,7 @@
 }
 
 //Card Component
-.card-content{
+.card_content{
     .content{
         background-color: var(--#{$prefix}white) !important;
         box-shadow: 0px 3.8520348072px 42.3723831177px 0px rgba(0, 0, 0, 0.06);
@@ -147,6 +147,7 @@
         &:hover{
             cursor:pointer;
             box-shadow: 0px 3.8520348072052px 42.37238311767578px 0px rgba(0, 0, 0, 0.1);
+
         }
     }
     img{
@@ -155,7 +156,7 @@
     }
 }
 //Icon Box
-.icon_box_content
+.icon_content
 {
     border-radius: 10px;
     img{
