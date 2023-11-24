@@ -55,10 +55,23 @@ function ahs_acf_init()
             'description'       => 'A customizable button with options for text, link, and style',
             'render_callback'   => 'ahs_acf_block_template',
             'icon'              => 'layout',
-            'mode'              => 'edit',
+            'mode'              => 'preview',
             'post_types'        => array('page'),
 
         ]);
+
+        // Template - Button
+        acf_register_block(
+            array(
+                'name' => 'ahs-acf-button',
+                'category' => 'ahs-acf-blocks',
+                'title' => 'Button (Theme style)',
+                'description' => 'Theme style button',
+                'render_callback' => 'aciana_acf_block_template',
+                'icon' => 'layout',
+                'mode' => 'preview'
+            )
+        );
 
         acf_register_block_type(array(
             'name'              => 'ahs-acf-container-block',
@@ -133,8 +146,8 @@ function ahs_acf_init()
                 'render_callback'   => 'ahs_acf_block_template',
                 'icon' => 'layout',
                 'mode' => 'preview',
+                'allowed_blocks' => array('button'),
                 'post_types'        => array('page'),
-                'allowed_blocks' => array('buttons'),
                 'supports' => array(
                     'jsx' => true,
                 ),
